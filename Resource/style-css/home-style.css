@@ -1,0 +1,17 @@
+#logo-store {
+  max-width: 50px;
+  padding-left: 10px;
+}
+.header-banner {
+  background: #9b6246;
+}
+
+.navbar-store {
+  background: #9b6246;
+}
+.nav-container {
+  background: #9b6246;
+}
+.list-menu li a {
+  color: var(-bs-);
+}
