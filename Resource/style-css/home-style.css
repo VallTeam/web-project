@@ -1,3 +1,6 @@
+body {
+  font-family: "Open Sans", sans-serif !important;
+}
 #logo-store {
   max-width: 50px;
   padding-left: 10px;
@@ -13,5 +16,20 @@
   background: #9b6246;
 }
 .list-menu li a {
-  color: var(-bs-);
+  color: white !important;
+}
+.banner {
+  padding: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.title-banner {
+  font-size: 20px;
+  color: white;
+  padding-bottom: 10px;
+}
+.search-store {
+  display: inline-block;
+}
+.search-bar {
 }
