@@ -9,13 +9,16 @@
     <link rel="stylesheet" href="Resource/style-css/home-style.css" />
     <link rel="stylesheet" href="Resource/css/bootstrap.css" />
     <link rel="stylesheet" href="Resource/css/bootstrap-grid.css" />
+    <link rel="stylesheet" href="Resource/css/bootstrap-utilities.css" />
+    <link rel="stylesheet" href="Resource/css/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="Resource/css/bootstrap-utilities.min.css" />
     <script src="Resource/js/bootstrap.js"></script>
     <script src="Resource/js/bootstrap.min.js"></script>
     <title>Trang chủ - VALL COFFEE</title>
   </head>
   <body>
     <header>
-      <div class="nav-container container">
+      <div class="nav-container container-fluid">
         <nav class="navbar navbar-expand-md navbar-light">
           <a href="#" class="navbar-brand">
             <img src="Resource/Logo/logo.png" alt="Logo-store" width="50px" />
@@ -41,6 +44,29 @@
             </ul>
           </div>
         </nav>
+      </div>
+      <div
+        class="banner container-fluid p-5 text-center shadow-lg rounded"
+        style="
+          background-image: url('../web-project/Resource/background/background-quan-ver2.jpg');
+        "
+      >
+        <h1 class="title-banner">
+          <div>VALL COFFEE</div>
+          <div>SỰ LỰA CHỌN CỦA NGƯỜI TINH TẾ</div>
+        </h1>
+        <form id="search-store" class="container">
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Nhập để tìm kiếm quán"
+              aria-label="Nhập để tìm kiếm quán"
+              aria-describedby="basic-addon1"
+            />
+          </div>
+          <button type="button" class="btn-outline-light btn">Tìm kiếm</button>
+        </form>
       </div>
     </header>
     <main></main>
