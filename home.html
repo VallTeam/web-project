@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="Resource/css/bootstrap-utilities.css" />
     <link rel="stylesheet" href="Resource/css/bootstrap.rtl.min.css" />
     <link rel="stylesheet" href="Resource/css/bootstrap-utilities.min.css" />
+    <link rel="stylesheet" href="./Resource/style-css/library.css" />
     <script src="Resource/js/bootstrap.js"></script>
     <script src="Resource/js/bootstrap.min.js"></script>
     <title>Trang chủ - VALL COFFEE</title>
@@ -19,10 +20,12 @@
   <body>
     <header>
       <div class="nav-container container-fluid">
-        <nav class="navbar navbar-expand-md navbar-light">
-          <a href="#" class="navbar-brand">
-            <img src="Resource/Logo/logo.png" alt="Logo-store" width="50px" />
-            <span class="visually-hidden">VALL TEAM</span>
+        <nav class="navbar navbar-expand-md navbar-dark">
+          <a href="./home.html" class="navbar-brand">
+            <img src="Resource/Logo/logo-2.png" alt="Logo-store" width="50px" />
+            <span class="text-center" style="font-weight: 800; padding: 5px"
+              >VALL COFFEE</span
+            >
           </a>
           <button
             type="button"
@@ -35,41 +38,239 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="toggleMobileMenu">
-            <ul class="list-menu navbar-nav ms-auto">
-              <li><a class="nav-link active" href="#">Trang chủ</a></li>
-              <li><a class="nav-link" href="#">Thực đơn</a></li>
-              <li><a class="nav-link" href="#">Tin tức</a></li>
-              <li><a class="nav-link" href="#">Tin tuyển dụng</a></li>
+          <div class="list-menu collapse navbar-collapse" id="toggleMobileMenu">
+            <ul class="navbar-nav fw-bolder">
+              <li class="nav-item list-menu-item">
+                <a class="nav-link active" href="./home.html">Trang chủ</a>
+              </li>
+              <li class="nav-item list-menu-item">
+                <a class="nav-link" href="#">Thực đơn</a>
+              </li>
+              <li class="nav-item list-menu-item">
+                <a class="nav-link" href="#">Tin tức</a>
+              </li>
+              <li class="nav-item list-menu-item">
+                <a class="nav-link" href="#">Tin tuyển dụng</a>
+              </li>
             </ul>
           </div>
         </nav>
       </div>
-      <div
-        class="banner container-fluid p-5 text-center shadow-lg rounded"
-        style="
-          background-image: url('../web-project/Resource/background/background-quan-ver2.jpg');
-        "
-      >
-        <h1 class="title-banner">
-          <div>VALL COFFEE</div>
-          <div>SỰ LỰA CHỌN CỦA NGƯỜI TINH TẾ</div>
-        </h1>
-        <form id="search-store" class="container">
-          <div class="input-group mb-3">
-            <input
-              type="text"
-              class="form-control"
-              placeholder="Nhập để tìm kiếm quán"
-              aria-label="Nhập để tìm kiếm quán"
-              aria-describedby="basic-addon1"
-            />
-          </div>
-          <button type="button" class="btn-outline-light btn">Tìm kiếm</button>
-        </form>
+
+      <div class="banner container-fluid text-center shadow-lg rounded">
+        <div class="content-banner">
+          <h1 class="title-banner">
+            <div class="slogan-up">VALL COFFEE</div>
+            <div class="slogan-down">Sự Lựa Chọn Của Con Người Tinh Tế</div>
+          </h1>
+          <form id="search-store" class="container">
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="search-bar form-control"
+                placeholder="Nhập để tìm kiếm quán"
+                aria-label="Nhập để tìm kiếm quán"
+                aria-describedby="basic-addon1"
+              />
+            </div>
+            <button type="button" class="btn-outline-light btn">
+              Tìm kiếm
+            </button>
+          </form>
+        </div>
       </div>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+      <div class="container-fluid">
+        <div class="row list-content">
+          <div class="col-lg-4">
+            <img
+              class="img-fluid rounded-2 shadow-lg"
+              src="Resource/background/background-quan.jpg"
+              alt="Mô-phỏng-quán"
+              width="100%"
+            />
+          </div>
+          <div class="col-lg-8 title orange-color">
+            <hr />
+            <h1 class="text-center" id="vall-coffee">
+              Thương hiệu cà phê <strong>Vall Coffee</strong>
+            </h1>
+            <hr />
+            <div class="">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                ab beatae totam inventore, provident, debitis facilis quis neque
+                aut dolorem quaerat natus ullam assumenda tempora facere aliquid
+                recusandae omnis quisquam.
+              </p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                ab beatae totam inventore, provident, debitis facilis quis neque
+                aut dolorem quaerat natus ullam assumenda tempora facere aliquid
+                recusandae omnis quisquam.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row list-content shadow-lg" id="about-us">
+          <div class="col-lg-8">
+            <div class="row p-5">
+              <hr />
+              <h1 class="text-center">
+                Về tập đoàn <strong>VALL COFFEE</strong>
+              </h1>
+              <hr />
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                  voluptates error sed id doloremque fuga corporis, optio dicta
+                  deserunt facere numquam accusantium! Voluptatibus officiis
+                  porro iure quas repudiandae harum vero.
+                </p>
+              </div>
+              <div class="col-lg-6">
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Quibusdam nihil sint consectetur consequuntur architecto nulla
+                  quo nam odit quam cum perspiciatis, eveniet, alias minus
+                  pariatur rem iste autem quod recusandae!
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aspernatur illo quae rem voluptas maxime accusamus repellendus
+                  iusto velit repudiandae harum dolorem debitis expedita atque
+                  ex, at culpa ullam, cupiditate nesciunt.
+                </p>
+              </div>
+              <div class="col-lg-6">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                  doloribus, quibusdam consequatur dolore voluptatum earum!
+                  Magni, veniam architecto accusantium nostrum natus culpa
+                  facere numquam esse exercitationem, ut, nobis aperiam
+                  delectus?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="row">
+              <img
+                class="img-fluid p-5 border-img"
+                src="./Resource/background/vall-self-1.jpg"
+                alt="vall-shop"
+              />
+            </div>
+            <div class="row">
+              <img
+                class="img-fluid p-5 border-img"
+                src="./Resource/background/vall-self-2.jpg"
+                alt="vall-shop"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="list-content">
+        <div class="row text-center title">
+          <div class="col">
+            <hr />
+            <h1>Cách thức đặt hàng</h1>
+            <hr />
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-lg-3 padding-2rem">
+            <img
+              src="./Resource/icon/phone-svgrepo-com.svg"
+              alt="Gọi-điện-thoại-đến-số-máy"
+              class="img-fluid"
+              width="50%"
+            />
+            <div class="padding-3rem font-large">
+              <span>Bấm gọi 19001209</span>
+            </div>
+          </div>
+          <div class="col-lg-3 padding-2rem">
+            <img
+              src="./Resource/icon/order.svg"
+              alt="Gọi-điện-thoại-đến-số-máy"
+              class="img-fluid"
+              width="50%"
+            />
+            <div class="padding-3rem font-large">
+              <span>Đặt hàng sản phẩm</span>
+            </div>
+          </div>
+          <div class="col-lg-3 padding-2rem">
+            <img
+              src="./Resource/icon/deliver.svg"
+              alt="Gọi-điện-thoại-đến-số-máy"
+              class="img-fluid"
+              width="50%"
+            />
+            <div class="padding-3rem font-large">
+              <span>Chuyển phát tức thì</span>
+            </div>
+          </div>
+          <div class="col-lg-3 padding-2rem">
+            <img
+              src="./Resource/icon/check-payment.svg"
+              alt="Gọi-điện-thoại-đến-số-máy"
+              class="img-fluid"
+              width="50%"
+            />
+            <div class="padding-3rem font-large">
+              <span>Thanh toán tại nhà hoặc online</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3">
+            <p class="font-large font-upper">Về chúng tôi</p>
+            <div>
+              <a href="#" class="ref-link link-info">Về tổng công ty</a>
+            </div>
+            <div>
+              <a href="#" class="ref-link link-info">Về sản phẩm của công ty</a>
+            </div>
+            <div>
+              <a href="#" class="ref-link link-info">TT Liên hệ & CSKH</a>
+            </div>
+            <div>
+              <a href="#" class="ref-link link-info">Cửa hàng</a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <p class="font-large font-upper">Chính sách chuỗi cửa hàng</p>
+            <div>
+              <a href="#" class="ref-link link-info">Chính sách thành viên</a>
+            </div>
+            <div>
+              <a href="#" class="ref-link link-info">Hình thức thanh toán</a>
+            </div>
+            <div>
+              <a href="#" class="ref-link link-info">Quá trình vận chuyển</a>
+            </div>
+            <div>
+              <a href="#" class="ref-link link-info">Đổi trả và hoàn tiền</a>
+            </div>
+          </div>
+          <div class="col-lg-3">Test</div>
+          <div class="col-lg-3">Test</div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
