@@ -41,6 +41,12 @@
 .font-xlarge {
   font-size: 32px;
 }
+.font-xmlarge {
+  font-size: 40px;
+}
+.font-xxlarge {
+  font-size: 48px;
+}
 .font-upper {
   text-transform: uppercase;
 }
@@ -89,4 +95,47 @@
 }
 .img-border {
   border-radius: 3.5rem !important;
+}
+.flex-direction-column {
+  flex-direction: column !important;
+}
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+.padding-left-none {
+  padding-left: 0rem !important;
+}
+.padding-left-1rem {
+  padding-left: 1rem;
+}
+.padding-left-2rem {
+  padding-left: 2rem;
+}
+.padding-left-3rem {
+  padding-left: 3rem;
+}
+.padding-left-4rem {
+  padding-left: 4rem;
+}
+.padding-left-5rem {
+  padding-left: 5rem;
+}
+.padding-right-none {
+  padding-right: 0rem !important;
+}
+.padding-right-1rem {
+  padding-right: 1rem;
+}
+.padding-right-2rem {
+  padding-right: 2rem;
+}
+.padding-right-3rem {
+  padding-right: 3rem;
+}
+.padding-right-4rem {
+  padding-right: 4rem;
+}
+.padding-right-5rem {
+  padding-right: 5rem;
 }

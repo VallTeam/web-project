@@ -78,61 +78,41 @@ h1 {
 .border-img {
   border-radius: 3.5rem !important;
 }
-
+#about-company-context-1::before {
+  content: "1";
+  font-size: 3rem;
+  padding: 1rem 2rem;
+  margin-right: 1rem;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+#about-company-context-2::before {
+  content: "2";
+  font-size: 3rem;
+  padding: 1rem 2rem;
+  margin-right: 1rem;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+#about-company-context-3::before {
+  content: "3";
+  font-size: 3rem;
+  padding: 1rem 2rem;
+  margin-right: 1rem;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+#about-company-context-4::before {
+  content: "4";
+  font-size: 3rem;
+  padding: 1rem 2rem;
+  margin-right: 1rem;
+  border: 1px solid white;
+  border-radius: 50%;
+}
 #about-us {
   background-color: #f7986e !important;
   color: white !important;
-}
-.padding-5rem {
-  padding: 5rem;
-}
-.padding-4rem {
-  padding: 4rem;
-}
-.padding-3rem {
-  padding: 3rem;
-}
-.padding-2rem {
-  padding: 2rem;
-}
-.padding-1rem {
-  padding: 1rem;
-}
-.padding-none {
-  padding: 0rem !important;
-}
-.font-large {
-  font-size: 25px;
-}
-.font-normal {
-  font-size: 18px;
-}
-.font-small {
-  font-size: 14px;
-}
-.font-xsmall {
-  font-size: 12px;
-}
-.font-xlarge {
-  font-size: 32px;
-}
-.font-upper {
-  text-transform: uppercase;
-}
-.font-lower {
-  text-transform: lowercase;
-}
-.font-title {
-  text-transform: capitalize;
-}
-.bold-tight {
-  font-weight: 100;
-}
-.bold-normal {
-  font-weight: 300;
-}
-.bold-bolder {
-  font-weight: bold;
 }
 footer {
   text-align: center;
