@@ -1,5 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@700&family=Roboto&display=swap");
 body {
-  font-family: "Open Sans", sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
+  font-size: 20px !important;
+}
+h1 {
+  padding: 1rem;
 }
 #logo-store {
   max-width: 50px;
@@ -10,21 +15,33 @@ body {
 }
 
 .navbar-store {
-  background: #9b6246;
+  background: #f7986e;
 }
 .nav-container {
-  background: #9b6246;
+  background: #f7986e;
 }
-.list-menu li a {
-  color: white !important;
+.menu-button {
+  height: 50px !important;
+  width: 50px !important;
+  border-radius: 20%;
+  background-color: transparent;
+  border-color: white;
+}
+.list-menu {
+  justify-content: flex-end !important;
+}
+.list-menu-item {
+  padding: 0 2rem !important;
 }
 .banner {
-  padding: 100px;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("../background/background-quan-ver4.jpg");
+  padding: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  padding: 10rem !important;
 }
 .title-banner {
-  font-size: 20px;
+  font-family: "Anton", sans-serif !important;
   color: white;
   padding-bottom: 10px;
 }
@@ -32,4 +49,97 @@ body {
   display: inline-block;
 }
 .search-bar {
+  background: transparent !important;
+  border-width: 3px !important;
+  color: white !important;
+  font-size: 20px !important;
+}
+.search-bar::placeholder {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+.orange-color {
+  color: #9b6246 !important;
+}
+.list-content {
+  padding: 5rem;
+}
+.slogan-up {
+  font-size: 8rem;
+}
+.slogan-down {
+  font-family: "Dancing Script", cursive;
+}
+.row {
+  align-items: center;
+}
+.title {
+  padding: 0 5rem;
+}
+.border-img {
+  border-radius: 3.5rem !important;
+}
+
+#about-us {
+  background-color: #f7986e !important;
+  color: white !important;
+}
+.padding-5rem {
+  padding: 5rem;
+}
+.padding-4rem {
+  padding: 4rem;
+}
+.padding-3rem {
+  padding: 3rem;
+}
+.padding-2rem {
+  padding: 2rem;
+}
+.padding-1rem {
+  padding: 1rem;
+}
+.padding-none {
+  padding: 0rem !important;
+}
+.font-large {
+  font-size: 25px;
+}
+.font-normal {
+  font-size: 18px;
+}
+.font-small {
+  font-size: 14px;
+}
+.font-xsmall {
+  font-size: 12px;
+}
+.font-xlarge {
+  font-size: 32px;
+}
+.font-upper {
+  text-transform: uppercase;
+}
+.font-lower {
+  text-transform: lowercase;
+}
+.font-title {
+  text-transform: capitalize;
+}
+.bold-tight {
+  font-weight: 100;
+}
+.bold-normal {
+  font-weight: 300;
+}
+.bold-bolder {
+  font-weight: bold;
+}
+footer {
+  text-align: center;
+  background-color: #f7986e;
+  padding: 50px;
+}
+.ref-link {
+  text-decoration: none;
+  color: white !important;
 }

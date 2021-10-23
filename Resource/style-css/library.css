@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@700&family=Roboto&display=swap");
+.font-family-slogan {
+  font-family: "Dancing Script", sans-serif;
+}
+.font-family-title-large {
+  font-family: "Anton", sans-serif;
+}
+.font-family-normal {
+  font-family: "Roboto", sans-serif;
+}
+.padding-5rem {
+  padding: 5rem;
+}
+.padding-4rem {
+  padding: 4rem;
+}
+.padding-3rem {
+  padding: 3rem;
+}
+.padding-2rem {
+  padding: 2rem;
+}
+.padding-1rem {
+  padding: 1rem;
+}
+.padding-none {
+  padding: 0rem !important;
+}
+.font-large {
+  font-size: 25px;
+}
+.font-normal {
+  font-size: 18px;
+}
+.font-small {
+  font-size: 14px;
+}
+.font-xsmall {
+  font-size: 12px;
+}
+.font-xlarge {
+  font-size: 32px;
+}
+.font-upper {
+  text-transform: uppercase;
+}
+.font-lower {
+  text-transform: lowercase;
+}
+.font-title {
+  text-transform: capitalize;
+}
+.bold-tight {
+  font-weight: 100;
+}
+.bold-normal {
+  font-weight: 300;
+}
+.bold-bolder {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+.margin-none {
+  margin: 0rem;
+}
+
+.margin-1rem {
+  margin: 0rem;
+}
+
+.margin-2rem {
+  margin: 0rem;
+}
+
+.margin-3rem {
+  margin: 0rem;
+}
+
+.margin-4rem {
+  margin: 0rem;
+}
+.margin-5rem {
+  margin: 5rem;
+}
+.img-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img-border {
+  border-radius: 3.5rem !important;
+}
