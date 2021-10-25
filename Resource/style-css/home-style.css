@@ -58,7 +58,7 @@ h1 {
   color: rgba(255, 255, 255, 0.8) !important;
 }
 .orange-color {
-  color: #9b6246 !important;
+  color: #9b6246;
 }
 .list-content {
   padding: 5rem;
@@ -77,6 +77,14 @@ h1 {
 }
 .border-img {
   border-radius: 3.5rem !important;
+}
+.find-more .btn-outline-dark:hover {
+  background-color: #9b6246 !important;
+  border-color: #9b6246 !important;
+  color: white !important;
+}
+.find-more button span:hover {
+  color: white;
 }
 #about-company-context-1::before {
   content: "1";
