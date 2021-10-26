@@ -26,6 +26,9 @@
 .padding-none {
   padding: 0rem !important;
 }
+.padding-side-1rem {
+  padding: 0rem 1rem !important;
+}
 .font-large {
   font-size: 25px;
 }
@@ -141,4 +144,18 @@
 }
 .orange-border {
   border-color: #9b6246;
+}
+.orange-background {
+  background-color: #f7986e;
+}
+.white-background {
+  background-color: white;
+}
+.border-radius-1-rem {
+  border-radius: 1rem;
+}
+@media (max-width: 500px) {
+  .text-sm-size {
+    font-size: 3rem;
+  }
 }
