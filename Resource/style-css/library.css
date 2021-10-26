@@ -26,6 +26,9 @@
 .padding-none {
   padding: 0rem !important;
 }
+.padding-side-1rem {
+  padding: 0rem 1rem !important;
+}
 .font-large {
   font-size: 25px;
 }
@@ -40,6 +43,12 @@
 }
 .font-xlarge {
   font-size: 32px;
+}
+.font-xmlarge {
+  font-size: 40px;
+}
+.font-xxlarge {
+  font-size: 48px;
 }
 .font-upper {
   text-transform: uppercase;
@@ -89,4 +98,64 @@
 }
 .img-border {
   border-radius: 3.5rem !important;
+}
+.flex-direction-column {
+  flex-direction: column !important;
+}
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+.padding-left-none {
+  padding-left: 0rem !important;
+}
+.padding-left-1rem {
+  padding-left: 1rem;
+}
+.padding-left-2rem {
+  padding-left: 2rem;
+}
+.padding-left-3rem {
+  padding-left: 3rem;
+}
+.padding-left-4rem {
+  padding-left: 4rem;
+}
+.padding-left-5rem {
+  padding-left: 5rem;
+}
+.padding-right-none {
+  padding-right: 0rem !important;
+}
+.padding-right-1rem {
+  padding-right: 1rem;
+}
+.padding-right-2rem {
+  padding-right: 2rem;
+}
+.padding-right-3rem {
+  padding-right: 3rem;
+}
+.padding-right-4rem {
+  padding-right: 4rem;
+}
+.padding-right-5rem {
+  padding-right: 5rem;
+}
+.orange-border {
+  border-color: #9b6246;
+}
+.orange-background {
+  background-color: #f7986e;
+}
+.white-background {
+  background-color: white;
+}
+.border-radius-1-rem {
+  border-radius: 1rem;
+}
+@media (max-width: 500px) {
+  .text-sm-size {
+    font-size: 3rem;
+  }
 }
