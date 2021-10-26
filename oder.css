@@ -1,0 +1,70 @@
+main{
+  background-color: #f7986e;
+  padding: 0 16px;
+}
+
+#myMenu{
+
+  padding: 0 16px;
+  margin: auto;
+  float: left;
+  box-shadow:#000000 0 2px 7px ;
+}
+.oder-center{
+  line-height: 1.5;
+  display: inline-block;
+  padding: auto;
+  float: left;
+  inset: 0;
+  margin: auto;
+
+}
+
+#MonNoiBat , #CaPhe ,#BanhMyKep, #BanhNgot
+{
+  display: flex;
+  justify-content: space-between;
+  line-height: 21px;
+  padding: 0 20px 16px;
+}
+/* #item 
+{
+  line-height: 1.5;
+  box-shadow: #000000 0 2px 7px 0px ;
+  height: 200px;
+  float: left;
+  inset: 0;
+  margin: 10px;
+  text-align: left;
+} */
+img{
+  max-width: 100%;
+}
+.gallery{
+  background-color:#f7986e;
+  padding: 20px 0;
+}
+.gallery img{
+  background-color: white;
+  padding: 0 1px 15px 1px;
+  box-shadow: 0 0 15px;
+  cursor: pointer;
+}
+#gallery-modal .modal-img{
+  width: 100%;
+}
+/* .Mimg{
+  height: 150px;
+  width: 110px;
+  
+} */
+#pay{
+  line-height: 1.5;
+  box-shadow:#000000 0 2px 7px ;
+}
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+
+  }
+  
