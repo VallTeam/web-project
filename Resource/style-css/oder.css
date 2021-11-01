@@ -1,0 +1,154 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #f7986e;
+}
+
+	form input{
+		border-radius: 10px;
+		margin-left: 10px;
+	}
+	form button{
+		display: block;margin: 0 auto;;
+	}
+  .box{
+	margin-top: 10px;
+	background-color: #9b6246;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  .slider{
+	width: 1100px;
+	height: 500px;
+	overflow: hidden;
+
+  }
+  
+  .slides{
+	width: 500%;
+	height: 500px;
+	display: flex;
+  }
+  
+  .slides input{
+	display: none;
+  }
+  
+  .slide{
+	width: 20%;
+	transition: 2s;
+  }
+  
+  .slide img{
+	width: 1100px;
+	height: 500px;
+  }
+  
+  /*css for manual slide navigation*/
+  
+  .navigation-manual{
+	position: absolute;
+	width: 800px;
+	margin-top: -40px;
+	display: flex;
+	justify-content: center;
+  }
+  
+  .manual-btn{
+	border: 2px solid #f7986e;
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+  }
+  
+  .manual-btn:not(:last-child){
+	margin-right: 40px;
+  }
+  
+  .manual-btn:hover{
+	background: #f7986e;
+  }
+  
+  #radio1:checked ~ .first{
+	margin-left: 0;
+  }
+  
+  #radio2:checked ~ .first{
+	margin-left: -20%;
+  }
+  
+  #radio3:checked ~ .first{
+	margin-left: -40%;
+  }
+  
+  #radio4:checked ~ .first{
+	margin-left: -60%;
+  }
+  
+  /*css for automatic navigation*/
+  
+  .navigation-auto{
+	position: absolute;
+	display: flex;
+	width: 800px;
+	justify-content: center;
+	margin-top: 460px;
+  }
+  
+  .navigation-auto div{
+	border: 2px solid #f7986e;
+	padding: 5px;
+	border-radius: 10px;
+	transition: 1s;
+  }
+  
+  .navigation-auto div:not(:last-child){
+	margin-right: 40px;
+  }
+  
+  #radio1:checked ~ .navigation-auto .auto-btn1{
+	background: #f7986e;
+  }
+  
+  #radio2:checked ~ .navigation-auto .auto-btn2{
+	background: #f7986e;
+  }
+  
+  #radio3:checked ~ .navigation-auto .auto-btn3{
+	background:#f7986e;
+  }
+  
+  #radio4:checked ~ .navigation-auto .auto-btn4{
+	background: #f7986e;
+  }
+
+
+
+
+main{
+	background-color: #f7986e;
+}
+
+
+img{
+	max-width: 100%;
+}
+ .gallery{
+	padding: 20px 0;
+}
+.gallery-item{
+	background-color: #ffffff;
+	color: #9b6246;
+	padding:  15px;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+	margin: 10px;
+}
+#gallery-modal .modal-img{
+	width: 100%;
+}
+footer{
+	background-color: white;
+}
