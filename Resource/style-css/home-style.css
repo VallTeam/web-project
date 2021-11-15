@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@700&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Asap+Condensed:wght@500&family=Dancing+Script:wght@700&family=Roboto&display=swap");
 body {
-  font-family: "Roboto", sans-serif !important;
-  font-size: 16px !important;
+  font-family: "Asap Condensed", sans-serif !important;
+  font-size: 25px !important;
 }
 h1 {
   padding: 1rem;
@@ -11,15 +11,13 @@ h1 {
   padding-left: 10px;
 }
 .header-banner {
-  background: #9b6246;
+  background: rgba(57, 0, 13, 1);
 }
 
 .navbar-store {
-  background: #f7986e;
+  background: rgba(57, 0, 13, 1);
 }
-.nav-container {
-  background: #f7986e;
-}
+
 .menu-button {
   height: 50px !important;
   width: 50px !important;
@@ -61,9 +59,7 @@ h1 {
 .search-bar::placeholder {
   color: rgba(255, 255, 255, 0.8) !important;
 }
-.orange-color {
-  color: #9b6246;
-}
+
 .list-content {
   padding: 5rem;
 }
@@ -122,16 +118,34 @@ h1 {
   border: 1px solid white;
   border-radius: 50%;
 }
-#about-us {
-  background-color: #f7986e !important;
-  color: white !important;
+
+.image-items {
+  width: 70%;
+  max-width: 100%;
+  border: 20px solid rgba(255, 255, 255, 0.8);
+  border-radius: 2%;
 }
-footer {
-  text-align: center;
-  background-color: #f7986e;
-  padding: 50px;
+.image-items-2 {
+  width: 85%;
+  max-width: 100%;
+  border-radius: 2%;
+}
+.btn-cus-1 {
+  background-color: var(--white);
+  color: var(--plum);
+  max-width: 100px;
 }
 .ref-link {
   text-decoration: none;
   color: white !important;
+}
+/* Order icon */
+.order-icon {
+  position: relative;
+  transform: scale(1, 1);
+  transition: width 500ms;
+  transition-timing-function: ease;
+}
+.order-icon:hover {
+  width: 80%;
 }

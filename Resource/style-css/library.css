@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@700&family=Roboto&display=swap");
+:root {
+  --white: #ffffff;
+  --plum: rgba(57, 0, 13, 1);
+}
 .font-family-slogan {
   font-family: "Dancing Script", sans-serif;
 }
@@ -145,17 +149,61 @@
 .orange-border {
   border-color: #9b6246;
 }
-.orange-background {
-  background-color: #f7986e;
+.plum-border {
+  border-color: var(--plum);
+}
+.plum-background {
+  background-color: var(--plum);
 }
 .white-background {
   background-color: white;
 }
+.plum-color {
+  color: var(--plum);
+}
 .border-radius-1-rem {
   border-radius: 1rem;
+}
+.shadow-1 {
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.8);
 }
 @media (max-width: 500px) {
   .text-sm-size {
     font-size: 3rem;
+  }
+}
+
+.button-37 {
+  background-color: transparent;
+  border: 3px solid var(--plum);
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: var(--plum);
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms, background-color 500ms,
+    color 1000ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-37:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0 3px 9px 0;
+  background-color: var(--plum);
+  color: var(--white);
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .button-37 {
+    padding: 10px 30px;
   }
 }
