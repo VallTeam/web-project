@@ -1,0 +1,20 @@
+.new-tab{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    border-radius: 1px solid #ededed;
+    background: #fff;
+    padding: 10px 30px;
+    margin: auto;
+    cursor: pointer;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    font-size: 14px;
+}
