@@ -7,10 +7,12 @@
     border-radius: 1px solid #ededed;
     background: #fff;
     padding: 10px 30px;
-    margin: auto;
+    margin:  0 auto;
     cursor: pointer;
     justify-content: center;
+    text-align: center;
 }
+
 a{
     text-decoration: none;
     color: black;
