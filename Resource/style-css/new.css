@@ -1,0 +1,12 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    font-size: 14px;
+}
+img.cangiua {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
