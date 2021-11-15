@@ -15,11 +15,15 @@
     <link rel="stylesheet" href="./Resource/style-css/library.css" />
     <script src="Resource/js/bootstrap.js"></script>
     <script src="Resource/js/bootstrap.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/12a3b6c9c3.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Trang chủ - VALL COFFEE</title>
   </head>
   <body>
     <header>
-      <div class="nav-container container-fluid">
+      <div class="nav-container container-fluid plum-background">
         <nav class="navbar navbar-expand-md navbar-dark">
           <a href="./home.html" class="navbar-brand">
             <img src="Resource/Logo/logo-2.png" alt="Logo-store" width="50px" />
@@ -50,7 +54,9 @@
                 <a class="nav-link p-1" href="./new.html">Tin tức</a>
               </li>
               <li class="nav-item list-menu-item padding-side-1rem">
-                <a class="nav-link p-1" href="#">Tin tuyển dụng</a>
+                <a class="nav-link p-1" href="./tintuyendung.html"
+                  >Tin tuyển dụng</a
+                >
               </li>
             </ul>
           </div>
@@ -92,7 +98,7 @@
               width="100%"
             />
           </div>
-          <div class="col-lg-8 title orange-color">
+          <div class="col-lg-8 title plum-color">
             <hr />
             <h1 class="text-center" id="vall-coffee">
               Thương hiệu cà phê <strong>Vall Coffee</strong>
@@ -113,18 +119,12 @@
                 recusandae omnis quisquam.
               </p> -->
               <div class="find-more">
-                <button
-                  type="button"
-                  class="btn btn-outline-dark orange-border"
-                  style="color: #9b6246"
-                >
-                  Xem Thêm ...
-                </button>
+                <button type="button" class="button-37">Xem Thêm ...</button>
               </div>
             </div>
           </div>
         </div>
-        <div class="row list-content shadow-lg" id="about-us">
+        <div class="row list-content shadow-lg plum-background text-white">
           <div class="col-lg-8">
             <div class="row p-5">
               <hr />
@@ -199,7 +199,7 @@
           </div>
         </div>
       </div>
-      <div class="list-content orange-color">
+      <div class="list-content plum-color">
         <div class="row text-center title">
           <div class="col text-capitalize">
             <hr />
@@ -212,7 +212,7 @@
             <img
               src="./Resource/icon/phone-svgrepo-com.svg"
               alt="Gọi-điện-thoại-đến-số-máy"
-              class="img-fluid"
+              class="order-icon img-fluid"
               width="50%"
             />
             <div class="padding-3rem font-large">
@@ -223,7 +223,7 @@
             <img
               src="./Resource/icon/order.svg"
               alt="Gọi-điện-thoại-đến-số-máy"
-              class="img-fluid"
+              class="order-icon img-fluid"
               width="50%"
             />
             <div class="padding-3rem font-large">
@@ -234,7 +234,7 @@
             <img
               src="./Resource/icon/deliver.svg"
               alt="Gọi-điện-thoại-đến-số-máy"
-              class="img-fluid"
+              class="order-icon img-fluid"
               width="50%"
             />
             <div class="padding-3rem font-large">
@@ -245,7 +245,7 @@
             <img
               src="./Resource/icon/check-payment.svg"
               alt="Gọi-điện-thoại-đến-số-máy"
-              class="img-fluid"
+              class="order-icon img-fluid"
               width="50%"
             />
             <div class="padding-3rem font-large">
@@ -254,29 +254,76 @@
           </div>
         </div>
       </div>
-      <div
-        class="
-          orange-background
-          text-white
-          container-fluid
-          padding-5rem
-          shadow-lg
-        "
-      >
+      <div class="plum-background text-white container-fluid shadow-lg">
         <div class="row text-center title">
-          <div class="col text-capitalize border-white">
+          <div class="col text-capitalize border-white p-5">
             <hr />
             <h1 class="text-white">Best Seller - Sản Phẩm Bán Chạy</h1>
             <hr />
           </div>
         </div>
-        <div class="row text-center font-large">
-          <div class="col-lg-4">Test 1</div>
-          <div class="col-lg-4">Test 2</div>
-          <div class="col-lg-4">Test 3</div>
+        <div class="row text-center font-large p-5">
+          <div class="col-lg-4 p-2">
+            <div>
+              <a href="#">
+                <img
+                  class="image-items shadow-1"
+                  src="./Resource/Menu/Ca Phe/Mocha.png"
+                  alt="Mocha coffe"
+                />
+              </a>
+              <div class="p-3">
+                <h4 class="text-uppercase bold-bolder">Cà Phê Mocha</h4>
+                <div class="text-uppercase padding-1rem">35000 VNĐ</div>
+                <button type="button" class="btn-cus-1">Đặt mua</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div>
+              <a href="#">
+                <img
+                  class="image-items shadow-1"
+                  src="./Resource/Menu/Nước qp/VIET QUẤT.png"
+                  alt="Mocha coffe"
+                />
+              </a>
+              <div class="p-3">
+                <h4 class="text-uppercase bold-bolder">Nước Ép Việt Quất</h4>
+                <div class="text-uppercase padding-1rem">35000 VNĐ</div>
+                <button type="button" class="btn-cus-1">Đặt mua</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div>
+              <a href="#">
+                <img
+                  class="image-items shadow-1"
+                  src="./Resource/Menu/Banh My/dân tổ.png"
+                  alt="Mocha coffe"
+                />
+              </a>
+              <div class="p-3">
+                <h4 class="text-uppercase bold-bolder">Bánh Mỳ Dân Tổ</h4>
+                <div class="text-uppercase padding-1rem">35000 VNĐ</div>
+                <button type="button" class="btn-cus-1">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="white-background container-fluid padding-5rem shadow-lg">
+      <div
+        class="
+          white-background
+          container-fluid
+          padding-5rem
+          shadow-lg
+          plum-color
+        "
+      >
         <div class="row text-center title">
           <div class="col text-capitalize border-white">
             <hr />
@@ -285,14 +332,38 @@
           </div>
         </div>
         <div class="row text-center orange-color font-large">
-          <div class="col-lg-4">Test 1</div>
-          <div class="col-lg-4">Test 2</div>
-          <div class="col-lg-4">Test 3</div>
+          <div class="col-lg-4">
+            <a href="#">
+              <img
+                class="image-items-2"
+                src="./Resource/new/loi-chuc-khai-truong-hay.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a href="#">
+              <img
+                class="image-items-2"
+                src="./Resource/new/loi-chuc-khai-truong-hay.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a href="#">
+              <img
+                class="image-items-2"
+                src="./Resource/new/loi-chuc-khai-truong-hay.jpg"
+                alt=""
+              />
+            </a>
+          </div>
         </div>
       </div>
     </main>
     <footer>
-      <div class="container-fluid">
+      <div class="container-fluid plum-background padding-5rem text-center">
         <div class="row">
           <div class="col-lg-3">
             <p class="font-large font-upper">Về chúng tôi</p>
