@@ -1,0 +1,2560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="Resource/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="Resource/style-css/home-style.css" />
+  <link rel="stylesheet" href="Resource/css/bootstrap.css" />
+  <link rel="stylesheet" href="Resource/css/bootstrap-grid.css" />
+  <link rel="stylesheet" href="Resource/css/bootstrap-utilities.css" />
+  <link rel="stylesheet" href="Resource/css/bootstrap.rtl.min.css" />
+  <link rel="stylesheet" href="Resource/css/bootstrap-utilities.min.css" />
+  <link rel="stylesheet" href="./Resource/style-css/library.css" />
+  <link rel="stylesheet" href="./Resource/style-css/menu-style.css">
+  <script src="Resource/js/bootstrap.js"></script>
+  <script src="Resource/js/bootstrap.min.js"></script>
+  <title>Sản phẩm VALL</title>
+</head>
+
+<body>
+  <header>
+    <div class="nav-container container-fluid">
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <a href="./home.html" class="navbar-brand">
+          <img src="Resource/Logo/logo-2.png" alt="Logo-store" width="50px" />
+          <span class="text-center" style="font-weight: 800; padding: 5px">VALL COFFEE</span>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"
+          aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="list-menu collapse navbar-collapse" id="toggleMobileMenu">
+          <ul class="navbar-nav fw-bolder">
+            <li class="nav-item list-menu-item">
+              <a class="nav-link" href="./home.html">Trang chủ</a>
+            </li>
+            <li class="nav-item list-menu-item">
+              <a class="nav-link" href="./menu.html">Thực đơn</a>
+            </li>
+            <li class="nav-item list-menu-item">
+              <a class="nav-link" href="./new.html">Tin tức</a>
+            </li>
+            <li class="nav-item list-menu-item">
+              <a class="nav-link" href="./tintuyendung.html">Tin tuyển dụng</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <form id="search-store" class="container">
+        <div class="input-group mb-1">
+          <input type="text" class=" form-control white-background margin-4rem" placeholder="Nhập để tìm kiếm sản phẩm..."
+            aria-label="Nhập để tìm kiếm sản phẩm..." aria-describedby="basic-addon2" />
+          <button type="button" class="btn-outline-light btn text-center margin-rem gseach">
+            Tìm kiếm
+          </button>
+        </div>
+
+      </form>
+    </div>
+    <div class="sliders">
+      <div class="slider">
+        <div class="slides">
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <div class="slide first">
+            <img src="./Resource/Menu/slides/1.png" alt="">
+          </div>
+          <div class="slide">
+            <img src="./Resource/Menu/slides/5.png" alt="">
+          </div>
+          <div class="slide">
+            <img src="./Resource/Menu/slides/3.png" alt="">
+          </div>
+          <div class="slide">
+            <img src="./Resource/Menu/slides/4.png" alt="">
+          </div>
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+
+          </div>
+        </div>
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="margin_section">
+    <div class="container-fluid">
+      <div class="row">
+          <div class="row gy-2 row-cols-2 row-cols-sm-2 row-cols-md-2 margin_section">
+            <div class="card" >
+              <img src="./Resource/Menu/Ca Phe/cafe trứng.png" class="card-img-top" alt="Món nổi bật">
+              <div class="card-body">
+                <h5 class="card-title text-center">Món nổi bật</h5>
+                <a href="#MonNoiBat" class="btn button-card"> Đi tới</a>
+              </div>
+            </div>
+          </div>
+          <div class="row gy-2 row-cols-2 row-cols-sm-2 row-cols-md-2 margin_section">
+            <div class="card">
+              <img src="./Resource/Menu/Ca Phe/Mocha.png" class="card-img-top" alt="cà phê">
+              <div class="card-body">
+                <h5 class="card-title text-center">Cà phê</h5>
+                <a href="#CaPhe" class="btn button-card">Đi tới</a>
+              </div>
+            </div>
+          </div>
+          <div class="row gy-2 row-cols-2 row-cols-sm-2 row-cols-md-2  margin_section">
+            <div class="card">
+              <img src="./Resource/Menu/Nước ep/dưa hấu.png" class="card-img-top" alt="Nước ép">
+              <div class="card-body">
+                <h5 class="card-title text-center">Nước ép</h5>
+                <a href="#NuocEp" class="btn button-card">Đi tới</a>
+              </div>
+            </div>
+          </div>
+          <div class="row gy-2 row-cols-2 row-cols-sm-2 row-cols-md-2 margin_section">
+            <div class="card">
+              <img src="./Resource/Menu/Banh Ngot/shortcake.png" class="card-img-top" alt="Bánh ngọt">
+              <div class="card-body">
+                <h5 class="card-title text-center">Bánh ngọt</h5>
+                <a href="#BanhNgot" class="btn button-card">Đi tới</a>
+              </div>
+            </div>
+          </div>
+          <div class="row gy-6 row-cols-2 row-cols-sm-4 row-cols-md-4 margin_section">
+            <div class="card">
+              <img src="./Resource/Menu/Banh My/dân tổ.png" class="card-img-top" alt="Bánh mỳ">
+              <div class="card-body">
+                <h5 class="card-title text-center">Bánh mỳ</h5>
+                <a href="#NuocEp" class="btn button-card">Đi tới</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+  <article>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="category-name font-normal" id="MonNoiBat">Món nổi bật</div>
+        <div class="row gy-6 row-cols-2 row-cols-sm-4 row-cols-md-4 ">
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#egg">
+              <img src="./Resource/Menu/Ca Phe/cafe trứng.png" class="gallery-item" alt="cafè trứng">
+              <p> Cafè Trứng</p>
+            </button>
+          </div>
+          <div class="col ">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#Dalga">
+              <img src="./Resource/Menu/Ca Phe/bọt biển dalga.png" class="gallery-item" alt="dalga">
+              <p>Cafè Dalga</p>
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#traxanh">
+              <img src="./Resource/Menu/Banh Ngot/trà xanh.png" class="gallery-item" alt="Trà Xanh">
+              <p>Trà Xanh</p>
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#VietQuat">
+              <img src="./Resource/Menu/Nước ep/VIET QUẤT.png" class="gallery-item" alt="Việt Quất">
+              <p>Việt Quất</p>
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#kem">
+              <img src="./Resource/Menu/Banh My/kem.png" class="gallery-item" alt="Kem">
+              <p>Kem</p>
+            </button>
+          </div>
+        </div>
+        <div class="category-name font-normal" id="CaPhe">Cà Phê </div>
+        <div class="row gy-6 row-cols-2 row-cols-sm-4 row-cols-md-4 ">
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#arimecano">
+              <img src="./Resource/Menu/Ca Phe/arimecano (2).png" class="gallery-item" alt="arimecano">
+              <p>Arimechino </p>
+            </button>
+          </div>
+          <div class="col ">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#Capuchino">
+              <img src="./Resource/Menu/Ca Phe/CAPUCHINO (2).png" class="gallery-item" alt="CAPUCHINO">
+              <p>Capuchino</p>
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#egg">
+              <img src="./Resource/Menu/Ca Phe/cafe trứng.png" class="gallery-item" alt="cafè trứng">
+              <p>Trứng</p>
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#Kem">
+              <img src="./Resource/Menu/Ca Phe/cafe đá say kem.png" class="gallery-item" alt="cafè đá say kem">
+              <p>Đá Say Kem</p>
+            </button>
+          </div>
+          <div class="col ">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#Dalga">
+              <img src="./Resource/Menu/Ca Phe/bọt biển dalga.png" class="gallery-item" alt="dalga">
+              <p>Dalga</p>
+            </button>
+          </div>
+          <div class="col ">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#Bacxiu">
+              <img src="./Resource/Menu/Ca Phe/Bạc xỉu.png" class="gallery-item" alt="bạc xỉu">
+              <p>Bạc Xỉu</p>
+            </button>
+          </div>
+          <div class="col ">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#Matcha">
+              <img src="./Resource/Menu/Ca Phe/cafe matcha.png" class="gallery-item" alt="matcha">
+              <p> Matcha</p>
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#cold_brew">
+              <img src="./Resource/Menu/Ca Phe/cold brew.png" class="gallery-item" alt="cold brew">
+              <p>Cold Brew</p>
+            </button>
+          </div>
+          <div class="col ">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#Mocha">
+              <img src="./Resource/Menu/Ca Phe/Mocha.png" class="gallery-item" alt="mocha">
+              <p>Mocha</p>
+            </button>
+          </div>
+          <div class="col ">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#Phin">
+              <img src="./Resource/Menu/Ca Phe/phin.png" class="gallery-item" alt="phin">
+              <p>Phin</p>
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#milk">
+              <img src="./Resource/Menu/Ca Phe/sữa nóng.png" class="gallery-item" alt="sữa nóng">
+              <p>Sữa Nóng</p>
+            </button>
+          </div>
+        </div>
+        <div class="category-name font-normal" id="NuocEp">Nước Ép</div>
+        <div class="row gy-6 row-cols-2 row-cols-sm-4 row-cols-md-4">
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#Cam">
+              <img src="./Resource/Menu/Nước ep/cam.png" class="gallery-item" alt="Cam">
+              <p>Cam</p>
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#Chanhday">
+              <img src="./Resource/Menu/Nước ep/Chanh dây.jpg" class="gallery-item" alt="Chanhday">
+              <p>Chanh Dây</p>
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#Cantay">
+              <img src="./Resource/Menu/Nước ep/CẦN TÂY.png" class="gallery-item" alt="Cần Tây">
+              <p>Cần Tây</p>
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#DuaHau">
+              <img src="./Resource/Menu/Nước ep/dưa hấu.png" class="gallery-item" alt="Dưa hấu">
+              <p>Dưa Hấu</p>
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#Dua">
+              <img src="./Resource/Menu/Nước ep/dứa.png" class="gallery-item" alt="Dừa">
+              <p>Dừa</p>
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#Tao">
+              <img src="./Resource/Menu/Nước ep/TÁO.png" class="gallery-item" alt="Táo">
+              <p>Táo</p>
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#VietQuat">
+              <img src="./Resource/Menu/Nước ep/VIET QUẤT.png" class="gallery-item" alt="Việt Quất">
+              <p>Việt Quất</p>
+            </button>
+          </div>
+      
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#Vai">
+              <img src="./Resource/Menu/Nước ep/VẢI.png" class="gallery-item" alt="Vải">
+              <p>Vải</p>
+            </button>
+          </div>
+        </div>
+        <div class="category-name font-normal" id="BanhNgot">Bánh Kem</div>
+        <div class="row gy-6 row-cols-2 row-cols-sm-4 row-cols-md-4">
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#blackforest">
+              <img src="./Resource/Menu/Banh Ngot/blackforest.png" class="gallery-item" alt="blackforest">
+              <p>Blackforest</p>
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#XoTao">
+              <img src="./Resource/Menu/Banh Ngot/bánh xò táo.png" class="gallery-item" alt="Xò táo">
+              <p>Xò Táo</p>
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#Trimasu">
+              <img src="./Resource/Menu/Banh Ngot/trimasu (2).png" class="gallery-item" alt="trimasu">
+              <p>Trimasu</p>
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#shortcake">
+              <img src="./Resource/Menu/Banh Ngot/shortcake.png" class="gallery-item" alt="shortcake">
+              <p>Shortcake</p>
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#bldd">
+              <img src="./Resource/Menu/Banh Ngot/bông lan dứa dừa.png" class="gallery-item" alt="Bông lan">
+              <p>Bông lan Dứa Dừa</p>
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#bltm">
+              <img src="./Resource/Menu/Banh Ngot/trứng muối.png" class="gallery-item" alt="trứng muối">
+              <p> Bông Lan Trứng Muối</p>
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#donut">
+              <img src="./Resource/Menu/Banh Ngot/donut sôcla đen.png" class="gallery-item" alt="donut">
+              <p>Donut Socola Đen</p>
+            </button>
+          </div>
+        </div>
+        <div class="category-name font-normal" id="BanhMy">Bánh Mỳ Kẹp</div>
+        <div class="row gy-6 row-cols-2 row-cols-sm-4 row-cols-md-4">
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#chaca">
+              <img src="./Resource/Menu/Banh My/chả cá.png" class="gallery-item" alt="Chả cá">
+              <p>Chả cá</p>
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#danto">
+              <img src="./Resource/Menu/Banh My/dân tổ.png" class="gallery-item" alt="Dân tổ">
+              <p>Dân tổ</p>
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#kem">
+              <img src="./Resource/Menu/Banh My/kem.png" class="gallery-item" alt="Kem">
+              <p>Kem</p>
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#mibi">
+              <img src="./Resource/Menu/Banh My/mì bì.png" class="gallery-item" alt="mì bì">
+              <p>mì bì</p>
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#pate">
+              <img src="./Resource/Menu/Banh My/pate.png" class="gallery-item" alt="pate">
+              <p>Pate</p>
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#thiynuong">
+              <img src="./Resource/Menu/Banh My/thịt nướng.png" class="gallery-item" alt="thịt nướng">
+              <p>Thịt Nướng</p>
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#thitquay">
+              <img src="./Resource/Menu/Banh My/thị quay.png" class="gallery-item" alt="Thịt quay">
+              <p>Thịt Quay</p>
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#xega">
+              <img src="./Resource/Menu/Banh My/xé gà.png" class="gallery-item" alt="xé gà">
+              <p>Xé Gà</p>
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn item" data-bs-toggle="modal" data-bs-target="#xiumai">
+              <img src="./Resource/Menu/Banh My/xíu mại.png" class="gallery-item" alt="xíu mại">
+              <p>Xíu Mại</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3">
+          <p class="font-large font-upper">Về chúng tôi</p>
+          <div class="padding-1rem">
+            <a href="#" class="ref-link link-info">Về tổng công ty</a>
+          </div>
+          <div class="padding-1rem">
+            <a href="#" class="ref-link link-info">Về sản phẩm của công ty</a>
+          </div>
+          <div class="padding-1rem">
+            <a href="#" class="ref-link link-info">TT Liên hệ & CSKH</a>
+          </div>
+          <div class="padding-1rem">
+            <a href="#" class="ref-link link-info">Cửa hàng</a>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <p class="font-large font-upper">Chính sách chuỗi cửa hàng</p>
+          <div class="padding-1rem">
+            <a href="#" class="ref-link link-info padding-1rem">Chính sách thành viên</a>
+          </div>
+          <div class="padding-1rem">
+            <a href="#" class="ref-link link-info padding-1rem">Hình thức thanh toán</a>
+          </div>
+          <div class="padding-1rem">
+            <a href="#" class="ref-link link-info padding-1rem">Quá trình vận chuyển</a>
+          </div>
+          <div class="padding-1rem">
+            <a href="#" class="ref-link link-info padding-1rem">Đổi trả và hoàn tiền</a>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="row">
+            <img src="./Resource/Logo/logo-2.png" alt="Logo-vall-coffee" class="d-block img-thumbnail" width="30%" />
+          </div>
+        </div>
+        <div class="col-lg-4 text-white">
+          <div class="row">
+            <div class="padding-2rem">
+              <span class="
+                    font-xxlarge font-family-title-large
+                    align-text-bottom
+                    d-block
+                  ">
+                VALL COFFEE
+              </span>
+              <span class="d-block font-family-slogan">Sự lựa chọn của con người tinh tế</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="align-content-center">
+                <span>
+                  <img class="white-background border-radius-1-rem p-1" src="./Resource/icon/facebook-3.svg"
+                    alt="facebook-logo" width="10%" />
+                  <img class="white-background border-radius-1-rem p-1" src="./Resource/icon/instagram.svg"
+                    alt="instagram-logo" width="10%" />
+                  <img class="white-background border-radius-1-rem p-1" src="./Resource/icon/facebook-3.svg"
+                    alt="facebook-logo" width="10%" />
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 1.arimecano -->
+  <div class="modal fade" id="arimecano" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="arimecano">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Ca Phe/arimecano (2).png" alt="Arimecano">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Americano</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 2.capuchino -->
+  <div class="modal fade" id="Capuchino" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="Capuchino">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Ca Phe/CAPUCHINO (2).png" alt="Capuchino">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Capuchino</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 3.Bạc xỉu -->
+  <div class="modal fade" id="Bacxiu" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="Bacxiu">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Ca Phe/Bạc xỉu.png" alt="Bacxiu">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name"> Cà phê bạc xỉu</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 4. Dalga -->
+  <div class="modal fade" id="Dalga" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="Dalga">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Ca Phe/bọt biển dalga.png" alt="bọt biển dalga">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Cà phê dalga</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 5. Matcha -->
+  <div class="modal fade" id="Matcha" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="Matcha">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Ca Phe/cafe matcha.png" alt="Matcha">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Cà phê mat cha</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 6.egg -->
+  <div class="modal fade" id="egg" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="egg">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Ca Phe/cafe trứng.png" alt="Trứng">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Cà phê trứng</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 7.Kem -->
+  <div class="modal fade" id="Kem" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="Kem">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Ca Phe/cafe đá say kem.png" alt="Kem">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Cà phê đá say kem</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 8.cold brew -->
+  <div class="modal fade" id="cold_brew" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="cold_brew">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Ca Phe/cold brew.png" alt="cold brew">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Cold brew</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 9.Mocha -->
+  <div class="modal fade" id="Mocha" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="Mocha">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Ca Phe/Mocha.png" alt="Mocha">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Mocha</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 10.Phin -->
+  <div class="modal fade" id="Phin" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="Phin">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Ca Phe/phin.png" alt="phin">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Cà phê phin</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 11.Cà phê sữa -->
+  <div class="modal fade" id="milk" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="milk">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Ca Phe/sữa nóng.png" alt="Sữa">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Cà phê sữa nóng</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 1. Nước ép cam -->
+  <div class="modal fade" id="Cam" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="Cam">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Nước ep/cam.png" alt="Cam">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Cam</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+          <div class="ss-2 product-customize">
+            <div class="customize-section size">
+              <div class="customize-title">
+                <div class="left">Chọn size</div>
+                <div class="right">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="customize-content">
+                <label class="container-radio">
+                  <span>Size M</span>
+                  <input type="radio" checked="" value="m" name="size">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>Size L</span>
+                  <input type="radio" value="l" name="size">
+                  <span class="checkmark-radio"></span>
+                </label>
+              </div>
+            </div>
+            <div class="customize-section sugar">
+              <div class="customize-title">
+                <div class="left">Chọn đường</div>
+                <div class="right">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="customize-content">
+                <label class="container-radio">
+                  <span>70% đường</span>
+                  <input type="radio" checked="" name="sugar" value="sugar-04">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>50% đường</span>
+                  <input type="radio" name="sugar" value="sugar-03">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>30% đường</span>
+                  <input type="radio" name="sugar" value="sugar-02">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>Không đường</span>
+                  <input type="radio" name="sugar" value="sugar-01">
+                  <span class="checkmark-radio"></span>
+                </label>
+              </div>
+            </div>
+            <div class="customize-section ice">
+              <div class="customize-title">
+                <div class="left">Chọn đá</div>
+                <div class="right">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="customize-content">
+                <label class="container-radio">
+                  <span>Không đá</span>
+                  <input type="radio" checked="" name="ice" value="ice-05">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>30% đá</span>
+                  <input type="radio" checked="" name="ice" value="ice-05">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>50% đá</span>
+                  <input type="radio" checked="" name="ice" value="ice-05">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>75% đá</span>
+                  <input type="radio" checked="" name="ice" value="ice-05">
+                  <span class="checkmark-radio"></span>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+            <button type="button" class="btn btn-primary">Đặt hàng</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 2. Nước ép chanh dây -->
+  <div class="modal fade" id="Chanhday" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="Chanhday">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Nước ep/Chanh dây.jpg" alt="">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Nước ép</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+            <div class="ss-2 product-customize">
+              <div class="customize-section size">
+                <div class="customize-title">
+                  <div class="left">Chọn size</div>
+                  <div class="right">
+                    <i class="fas fa-angle-down" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="customize-content">
+                  <label class="container-radio">
+                    <span>Size M</span>
+                    <input type="radio" checked="" value="m" name="size">
+                    <span class="checkmark-radio"></span>
+                  </label>
+                  <label class="container-radio">
+                    <span>Size L</span>
+                    <input type="radio" value="l" name="size">
+                    <span class="checkmark-radio"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="customize-section sugar">
+                <div class="customize-title">
+                  <div class="left">Chọn đường</div>
+                  <div class="right">
+                    <i class="fas fa-angle-down" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="customize-content">
+                  <label class="container-radio">
+                    <span>70% đường</span>
+                    <input type="radio" checked="" name="sugar" value="sugar-04">
+                    <span class="checkmark-radio"></span>
+                  </label>
+                  <label class="container-radio">
+                    <span>50% đường</span>
+                    <input type="radio" name="sugar" value="sugar-03">
+                    <span class="checkmark-radio"></span>
+                  </label>
+                  <label class="container-radio">
+                    <span>30% đường</span>
+                    <input type="radio" name="sugar" value="sugar-02">
+                    <span class="checkmark-radio"></span>
+                  </label>
+                  <label class="container-radio">
+                    <span>Không đường</span>
+                    <input type="radio" name="sugar" value="sugar-01">
+                    <span class="checkmark-radio"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="customize-section ice">
+                <div class="customize-title">
+                  <div class="left">Chọn đá</div>
+                  <div class="right">
+                    <i class="fas fa-angle-down" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="customize-content">
+                  <label class="container-radio">
+                    <span>Không đá</span>
+                    <input type="radio" checked="" name="ice" value="ice-05">
+                    <span class="checkmark-radio"></span>
+                  </label>
+                  <label class="container-radio">
+                    <span>30% đá</span>
+                    <input type="radio" checked="" name="ice" value="ice-05">
+                    <span class="checkmark-radio"></span>
+                  </label>
+                  <label class="container-radio">
+                    <span>50% đá</span>
+                    <input type="radio" checked="" name="ice" value="ice-05">
+                    <span class="checkmark-radio"></span>
+                  </label>
+                  <label class="container-radio">
+                    <span>75% đá</span>
+                    <input type="radio" checked="" name="ice" value="ice-05">
+                    <span class="checkmark-radio"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 4.Cantay -->
+  <div class="modal fade" id="Cantay" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="Cantay">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Nước ep/CẦN TÂY.png" alt="Cantay">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Nước ép cần tây</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+          <div class="ss-2 product-customize">
+            <div class="customize-section size">
+              <div class="customize-title">
+                <div class="left">Chọn size</div>
+                <div class="right">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="customize-content">
+                <label class="container-radio">
+                  <span>Size M</span>
+                  <input type="radio" checked="" value="m" name="size">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>Size L</span>
+                  <input type="radio" value="l" name="size">
+                  <span class="checkmark-radio"></span>
+                </label>
+              </div>
+            </div>
+            <div class="customize-section sugar">
+              <div class="customize-title">
+                <div class="left">Chọn đường</div>
+                <div class="right">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="customize-content">
+                <label class="container-radio">
+                  <span>70% đường</span>
+                  <input type="radio" checked="" name="sugar" value="sugar-04">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>50% đường</span>
+                  <input type="radio" name="sugar" value="sugar-03">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>30% đường</span>
+                  <input type="radio" name="sugar" value="sugar-02">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>Không đường</span>
+                  <input type="radio" name="sugar" value="sugar-01">
+                  <span class="checkmark-radio"></span>
+                </label>
+              </div>
+            </div>
+            <div class="customize-section ice">
+              <div class="customize-title">
+                <div class="left">Chọn đá</div>
+                <div class="right">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="customize-content">
+                <label class="container-radio">
+                  <span>Không đá</span>
+                  <input type="radio" checked="" name="ice" value="ice-05">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>30% đá</span>
+                  <input type="radio" checked="" name="ice" value="ice-05">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>50% đá</span>
+                  <input type="radio" checked="" name="ice" value="ice-05">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>75% đá</span>
+                  <input type="radio" checked="" name="ice" value="ice-05">
+                  <span class="checkmark-radio"></span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 5. DuaHau -->
+  <div class="modal fade" id="DuaHau" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="DuaHau">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Nước ep/dưa hấu.png" alt="Dưa Hấu">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Nước ép dưa hấu</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+          <div class="ss-2 product-customize">
+            <div class="customize-section size">
+              <div class="customize-title">
+                <div class="left">Chọn size</div>
+                <div class="right">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="customize-content">
+                <label class="container-radio">
+                  <span>Size M</span>
+                  <input type="radio" checked="" value="m" name="size">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>Size L</span>
+                  <input type="radio" value="l" name="size">
+                  <span class="checkmark-radio"></span>
+                </label>
+              </div>
+            </div>
+            <div class="customize-section sugar">
+              <div class="customize-title">
+                <div class="left">Chọn đường</div>
+                <div class="right">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="customize-content">
+                <label class="container-radio">
+                  <span>70% đường</span>
+                  <input type="radio" checked="" name="sugar" value="sugar-04">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>50% đường</span>
+                  <input type="radio" name="sugar" value="sugar-03">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>30% đường</span>
+                  <input type="radio" name="sugar" value="sugar-02">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>Không đường</span>
+                  <input type="radio" name="sugar" value="sugar-01">
+                  <span class="checkmark-radio"></span>
+                </label>
+              </div>
+            </div>
+            <div class="customize-section ice">
+              <div class="customize-title">
+                <div class="left">Chọn đá</div>
+                <div class="right">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="customize-content">
+                <label class="container-radio">
+                  <span>Không đá</span>
+                  <input type="radio" checked="" name="ice" value="ice-05">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>30% đá</span>
+                  <input type="radio" checked="" name="ice" value="ice-05">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>50% đá</span>
+                  <input type="radio" checked="" name="ice" value="ice-05">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>75% đá</span>
+                  <input type="radio" checked="" name="ice" value="ice-05">
+                  <span class="checkmark-radio"></span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 6. Dứa -->
+  <div class="modal fade" id="Dua" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="Dua">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Nước ep/dứa.png" alt="Dứa">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Nước ép dứa</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+          <div class="ss-2 product-customize">
+            <div class="customize-section size">
+              <div class="customize-title">
+                <div class="left">Chọn size</div>
+                <div class="right">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="customize-content">
+                <label class="container-radio">
+                  <span>Size M</span>
+                  <input type="radio" checked="" value="m" name="size">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>Size L</span>
+                  <input type="radio" value="l" name="size">
+                  <span class="checkmark-radio"></span>
+                </label>
+              </div>
+            </div>
+            <div class="customize-section sugar">
+              <div class="customize-title">
+                <div class="left">Chọn đường</div>
+                <div class="right">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="customize-content">
+                <label class="container-radio">
+                  <span>70% đường</span>
+                  <input type="radio" checked="" name="sugar" value="sugar-04">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>50% đường</span>
+                  <input type="radio" name="sugar" value="sugar-03">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>30% đường</span>
+                  <input type="radio" name="sugar" value="sugar-02">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>Không đường</span>
+                  <input type="radio" name="sugar" value="sugar-01">
+                  <span class="checkmark-radio"></span>
+                </label>
+              </div>
+            </div>
+            <div class="customize-section ice">
+              <div class="customize-title">
+                <div class="left">Chọn đá</div>
+                <div class="right">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="customize-content">
+                <label class="container-radio">
+                  <span>Không đá</span>
+                  <input type="radio" checked="" name="ice" value="ice-05">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>30% đá</span>
+                  <input type="radio" checked="" name="ice" value="ice-05">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>50% đá</span>
+                  <input type="radio" checked="" name="ice" value="ice-05">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>75% đá</span>
+                  <input type="radio" checked="" name="ice" value="ice-05">
+                  <span class="checkmark-radio"></span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 7. táo -->
+  <div class="modal fade" id="Tao" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="Tao">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Nước ep/TÁO.png" alt="Táo">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Nước ép táo</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+          <div class="ss-2 product-customize">
+            <div class="customize-section size">
+              <div class="customize-title">
+                <div class="left">Chọn size</div>
+                <div class="right">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="customize-content">
+                <label class="container-radio">
+                  <span>Size M</span>
+                  <input type="radio" checked="" value="m" name="size">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>Size L</span>
+                  <input type="radio" value="l" name="size">
+                  <span class="checkmark-radio"></span>
+                </label>
+              </div>
+            </div>
+            <div class="customize-section sugar">
+              <div class="customize-title">
+                <div class="left">Chọn đường</div>
+                <div class="right">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="customize-content">
+                <label class="container-radio">
+                  <span>70% đường</span>
+                  <input type="radio" checked="" name="sugar" value="sugar-04">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>50% đường</span>
+                  <input type="radio" name="sugar" value="sugar-03">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>30% đường</span>
+                  <input type="radio" name="sugar" value="sugar-02">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>Không đường</span>
+                  <input type="radio" name="sugar" value="sugar-01">
+                  <span class="checkmark-radio"></span>
+                </label>
+              </div>
+            </div>
+            <div class="customize-section ice">
+              <div class="customize-title">
+                <div class="left">Chọn đá</div>
+                <div class="right">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="customize-content">
+                <label class="container-radio">
+                  <span>Không đá</span>
+                  <input type="radio" checked="" name="ice" value="ice-05">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>30% đá</span>
+                  <input type="radio" checked="" name="ice" value="ice-05">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>50% đá</span>
+                  <input type="radio" checked="" name="ice" value="ice-05">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>75% đá</span>
+                  <input type="radio" checked="" name="ice" value="ice-05">
+                  <span class="checkmark-radio"></span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 8. VietQuat -->
+  <div class="modal fade" id="VietQuat" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="VietQuatCam">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Nước ep/VIET QUẤT.png" alt="VietQuat">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Nước ép việt quất</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+          <div class="ss-2 product-customize">
+            <div class="customize-section size">
+              <div class="customize-title">
+                <div class="left">Chọn size</div>
+                <div class="right">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="customize-content">
+                <label class="container-radio">
+                  <span>Size M</span>
+                  <input type="radio" checked="" value="m" name="size">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>Size L</span>
+                  <input type="radio" value="l" name="size">
+                  <span class="checkmark-radio"></span>
+                </label>
+              </div>
+            </div>
+            <div class="customize-section sugar">
+              <div class="customize-title">
+                <div class="left">Chọn đường</div>
+                <div class="right">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="customize-content">
+                <label class="container-radio">
+                  <span>70% đường</span>
+                  <input type="radio" checked="" name="sugar" value="sugar-04">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>50% đường</span>
+                  <input type="radio" name="sugar" value="sugar-03">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>30% đường</span>
+                  <input type="radio" name="sugar" value="sugar-02">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>Không đường</span>
+                  <input type="radio" name="sugar" value="sugar-01">
+                  <span class="checkmark-radio"></span>
+                </label>
+              </div>
+            </div>
+            <div class="customize-section ice">
+              <div class="customize-title">
+                <div class="left">Chọn đá</div>
+                <div class="right">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="customize-content">
+                <label class="container-radio">
+                  <span>Không đá</span>
+                  <input type="radio" checked="" name="ice" value="ice-05">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>30% đá</span>
+                  <input type="radio" checked="" name="ice" value="ice-05">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>50% đá</span>
+                  <input type="radio" checked="" name="ice" value="ice-05">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>75% đá</span>
+                  <input type="radio" checked="" name="ice" value="ice-05">
+                  <span class="checkmark-radio"></span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 9.Vai -->
+  <div class="modal fade" id="Vai" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="Vai">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Nước ep/VẢI.png" alt="vải">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Nước ép vải</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+          <div class="ss-2 product-customize">
+            <div class="customize-section size">
+              <div class="customize-title">
+                <div class="left">Chọn size</div>
+                <div class="right">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="customize-content">
+                <label class="container-radio">
+                  <span>Size M</span>
+                  <input type="radio" checked="" value="m" name="size">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>Size L</span>
+                  <input type="radio" value="l" name="size">
+                  <span class="checkmark-radio"></span>
+                </label>
+              </div>
+            </div>
+            <div class="customize-section sugar">
+              <div class="customize-title">
+                <div class="left">Chọn đường</div>
+                <div class="right">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="customize-content">
+                <label class="container-radio">
+                  <span>70% đường</span>
+                  <input type="radio" checked="" name="sugar" value="sugar-04">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>50% đường</span>
+                  <input type="radio" name="sugar" value="sugar-03">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>30% đường</span>
+                  <input type="radio" name="sugar" value="sugar-02">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>Không đường</span>
+                  <input type="radio" name="sugar" value="sugar-01">
+                  <span class="checkmark-radio"></span>
+                </label>
+              </div>
+            </div>
+            <div class="customize-section ice">
+              <div class="customize-title">
+                <div class="left">Chọn đá</div>
+                <div class="right">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="customize-content">
+                <label class="container-radio">
+                  <span>Không đá</span>
+                  <input type="radio" checked="" name="ice" value="ice-05">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>30% đá</span>
+                  <input type="radio" checked="" name="ice" value="ice-05">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>50% đá</span>
+                  <input type="radio" checked="" name="ice" value="ice-05">
+                  <span class="checkmark-radio"></span>
+                </label>
+                <label class="container-radio">
+                  <span>75% đá</span>
+                  <input type="radio" checked="" name="ice" value="ice-05">
+                  <span class="checkmark-radio"></span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 1.blackforest -->
+  <div class="modal fade" id="blackforest" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="blackforest">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Banh Ngot/blackforest.png" alt="blackforest">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Bánh blackforest</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 2. Bánh XoTao -->
+  <div class="modal fade" id="XoTao" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="XoTao">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Banh Ngot/bánh xò táo.png" alt="XoTao">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Bánh xò táo</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 3. Trimasu -->
+  <div class="modal fade" id="Trimasu" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="Trimasu">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Banh Ngot/trimasu (2).png" alt="Trimasu">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Bánh Trimasu</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 4.shortcake -->
+  <div class="modal fade" id="shortcake" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="shortcake">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Banh Ngot/shortcake.png" alt="shortcake">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Bánh shortcake</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 5.Bánh bông lan dứa dừa -->
+  <div class="modal fade" id="bldd" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="bldd">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Banh Ngot/bông lan dứa dừa.png" alt="bông lan dứa dừa">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Bánh bông lan dứa dừa</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 6.Bánh bông lan trứng muối-->
+  <div class="modal fade" id="bltm" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="bltm">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Banh Ngot/trứng muối.png" alt="trungmuoi">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Bánh bông lan trứng muối</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 7.donut -->
+  <div class="modal fade" id="donut" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="donut">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Banh Ngot/donut sôcla đen.png" alt="donut">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Bánh donut sôcla đen</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 8,Trà sxanh -->
+  <div class="modal fade" id="traxanh" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="traxanh">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Banh Ngot/trà xanh.png" alt="Trà xanh">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Bánh trà xanh</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 1, Cha ca -->
+  <div class="modal fade" id="chaca" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="chaca">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Banh My/chả cá.png" alt="chaca">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Bánh mỳ chả cá</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 2 danto-->
+  <div class="modal fade" id="danto" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="danto">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Banh My/dân tổ.png" alt="danto">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Bánh mỳ dân tổ</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 3kem -->
+  <div class="modal fade" id="kem" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="kem">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Banh My/kem.png" alt="kem">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Bánh mỳ kem</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 4mibi -->
+  <div class="modal fade" id="mibi" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="mibi">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Banh My/mì bì.png" alt="mibi">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Bánh mỳ bì</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 5 pate-->
+  <div class="modal fade" id="pate" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="pate">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Banh My/pate.png" alt="pate">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Bánh mỳ pate</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 6.thitquay -->
+  <div class="modal fade" id="thitquay" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="thitquay">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Banh My/thị quay.png" alt="thitquay">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Bánh mỳ thịt quay</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 7"thiynuong -->
+  <div class="modal fade" id="thiynuong" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="thiynuong">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Banh My/thịt nướng.png" alt="thiynuong">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Bánh mỳ thịt nướng</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 8 -->
+  <div class="modal fade" id="xega" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="xega">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Banh My/xé gà.png" alt="xega">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Bánh mỳ xé gà</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 9 xiumai-->
+  <div class="modal fade" id="xiumai" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title " id="xiumai">Vui lòng đặt hàng tại đây!!!</h6>
+          <button type="button" class="btn-close margin_left " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ss-1 product-infomation">
+            <div class="ss-1-left">
+              <img id="pp-product-img" src="./Resource/Menu/Banh My/xíu mại.png" alt="xiumai">
+            </div>
+            <div class="ss-1-right">
+              <div id="pp-product-name" class="product-name">Bánh mỳ xíu mại</div>
+              <div class="product-price">
+                <div id="pp-product-price" class="price">29.000đ</div>
+                <div id="pp-product-regular-price" class="regular-price">52.000đ</div>
+              </div>
+              <div class="product-info"> <i> Chưa có thông tin.</i></div>
+              <div class="wrap-quantity d-flex align-items-center">
+                <div class="change-quantity-wrap">
+                  <div class="change-quantity decrease">-</div>
+                  <div class="amount">1</div>
+                  <div class="change-quantity increase">+</div>
+                </div>
+                <div class="btn-price-product">+ 29.000đ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+          <button type="button" class="btn btn-primary">Đặt hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    var counter = 1;
+    setInterval(function () {
+      document.getElementById('radio' + counter).checked = true;
+      counter++;
+      if (counter > 4) {
+        counter = 1;
+      }
+    }, 5000);
+    document.getElementsByClassName('demo').style.display = "block";
+  </script>
+  </div>
+  <script src="/web-project/Resource/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
