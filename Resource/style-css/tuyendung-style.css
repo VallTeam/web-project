@@ -1,0 +1,116 @@
+div.tile{
+    color:rgb(210, 162, 30);
+    font-family:cursive;
+    vertical-align: middle;
+    border: 1px none;
+    padding: 40px;
+    margin: 10px;
+    background-image: url(https://midwestpoultry.com/wp-content/uploads/2020/09/Barnwood-Background-1800x200-pixels.png);
+    background-size: 100% 300px;
+    background-repeat: no-repeat;
+    
+ }
+ img{
+     float: right;
+     width: 30%;
+ }
+ h1{
+     margin: 15px;
+ }
+ h2.dong1{
+     margin: 0px;
+ }
+ img{
+     float: right;
+     
+ }
+ h2.r2{
+     color: rgb(184, 12, 78);
+     font-size: 30px;
+     margin-top: 30px;
+     margin-left: 30px;
+ }
+ h3.r3{
+     color: chocolate;
+     margin-left: 80px;
+ }
+ h2.r3{
+     color:rgb(124, 10, 19);
+     font-family: cursive;
+     font-size: 40px;
+     border-radius: 30%/30%;
+     text-align: center;
+ }
+ 
+ h1.r4{
+     color: rgb(143, 111, 23);
+     text-align: center;
+     font-family: "Gill Sans", sans-serif;
+     padding: 30px;
+     
+ }
+ div.sumbit h2.r3{
+     
+     margin-top: 50px;
+ }
+ div.sumbit form{
+     padding: 10px;
+ }
+ div.sumbit form label{
+     color: rgba(233, 5, 5, 0.733);
+     font-weight: bold;
+     font-family: cursive;
+     padding:15px;
+     font-size: 18px;
+     width: 20%;
+ }
+ div.sumbit input{
+    margin: 15px;
+    padding: 3px;
+    width: 40%;
+ }
+ form.d1{
+     border: 1px none;
+     border-width: 70%;
+     background-image: url(https://pkmacbook.com/wp-content/uploads/2021/07/background-ca-phe-chuyen-nghiep_034337030.jpg);
+     border-radius: 71px/85px;
+ }
+ form.d1 input.p1{
+     margin-left: 30%;
+     width: 5%;
+ }
+ table.t3 tr th{
+     font-size: 25px;
+     color: darkgoldenrod;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     padding: 20px;
+     background-image: linear-gradient(0,#FFF8DC, #fdfbf1);
+ }
+ table.t3 tr td{
+     background-image: linear-gradient(0,  #d9ad73, #FFF8DC);
+     padding: 25px 20px;
+     font-size: 20px;
+     color: rgb(182, 34, 34);
+     font-family: cursive;
+ }
+ .g1{
+     text-align: center;
+     font-size: 30px;
+     color: rgb(214, 164, 0);
+     margin-top: 50px;
+     margin-bottom: 30px;
+ }
+ .y2 tr th{
+     font-size: 17px;
+     color: rgb(233, 236, 225);
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     padding: 20px;
+     background-color: rgb(141, 138, 138);
+ }
+ .y2 tr td{
+     font-size: 15px;
+     color: rgb(225, 236, 198);
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     padding: 20px;
+     background-color: rgb(116, 113, 113);
+ }
