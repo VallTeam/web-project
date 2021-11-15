@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Resource/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="Resource/style-css/home-style.css" />
+    <link rel="stylesheet" href="Resource/css/bootstrap.css" />
+    <link rel="stylesheet" href="Resource/css/bootstrap-grid.css" />
+    <link rel="stylesheet" href="Resource/css/bootstrap-utilities.css" />
+    <link rel="stylesheet" href="Resource/css/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="Resource/css/bootstrap-utilities.min.css" />
+    <link rel="stylesheet" href="./Resource/style-css/library.css" />
+    <link rel="stylesheet" href="./Resource/style-css/order-style.css">
+    <script src="Resource/js/bootstrap.js"></script>
+    <script src="Resource/js/bootstrap.min.js"></script>
+    <title>Sản phẩm VALL</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav-container container-fluid">
+        <nav class="navbar navbar-expand-md navbar-dark">
+          <a href="./home.html" class="navbar-brand">
+            <img src="Resource/Logo/logo-2.png" alt="Logo-store" width="50px" />
+            <span class="text-center" style="font-weight: 800; padding: 5px"
+              >VALL COFFEE</span>
+          </a>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#toggleMobileMenu"
+            aria-controls="toggleMobileMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="list-menu collapse navbar-collapse" id="toggleMobileMenu">
+            <ul class="navbar-nav fw-bolder">
+              <li class="nav-item list-menu-item">
+                <a class="nav-link" href="./home.html">Trang chủ</a>
+              </li>
+              <li class="nav-item list-menu-item">
+                <a class="nav-link  active" href="./menu.html">Thực đơn</a>
+              </li>
+              <li class="nav-item list-menu-item">
+                <a class="nav-link" href="./new.html">Tin tức</a>
+              </li>
+              <li class="nav-item list-menu-item">
+                <a class="nav-link" href="./tintuyendung.html">Tin tuyển dụng</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section>
+      <div  class="Customer">
+        <form >
+          <h3>Thông Tin Khách Hàng</h3>
+          <table>
+            <tbody>
+              <tr>
+                <td><label for="fname"><i class="fa fa-user"></i> Họ Tên :</label></td>
+                <td> <input type="text" id="fname" name="firstname" placeholder="Nguyễn Văn A"></td>
+              </tr>
+              <tr>
+                <td> <label for="number"><i class="fa fa-mobile-phone"></i> Số Điện Thoại :</label></td>
+                <td> <input type="text" id="number" name="number" placeholder="012 3456 789"></td>
+              </tr>
+              <tr>
+                <td>Giao đến: </td>
+              </tr>
+              <tr>
+                <td> <label for="adr"><i class="fa fa-address-card-o"></i> Địa Chỉ:</label></td>
+                <td> <input type="text" id="adr" name="address" placeholder="12-Nguyen Chi Thanh -DD"></td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+      </div>
+      <div class="checkout">
+        <form>
+          <h3>Thông tin đơn hàng</h3>
+          <table>
+            <tbody>
+              <tr>
+                <td class="button-checkout" onclick="window.location.href='./order.html'"> Thanh toán </td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3">
+            <p class="font-large font-upper">Về chúng tôi</p>
+            <div class="padding-1rem">
+              <a href="#" class="ref-link link-info">Về tổng công ty</a>
+            </div>
+            <div class="padding-1rem">
+              <a href="#" class="ref-link link-info">Về sản phẩm của công ty</a>
+            </div>
+            <div class="padding-1rem">
+              <a href="#" class="ref-link link-info">TT Liên hệ & CSKH</a>
+            </div>
+            <div class="padding-1rem">
+              <a href="#" class="ref-link link-info">Cửa hàng</a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <p class="font-large font-upper">Chính sách chuỗi cửa hàng</p>
+            <div class="padding-1rem">
+              <a href="#" class="ref-link link-info padding-1rem"
+                >Chính sách thành viên</a
+              >
+            </div>
+            <div class="padding-1rem">
+              <a href="#" class="ref-link link-info padding-1rem"
+                >Hình thức thanh toán</a
+              >
+            </div>
+            <div class="padding-1rem">
+              <a href="#" class="ref-link link-info padding-1rem"
+                >Quá trình vận chuyển</a
+              >
+            </div>
+            <div class="padding-1rem">
+              <a href="#" class="ref-link link-info padding-1rem"
+                >Đổi trả và hoàn tiền</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="row">
+              <img
+                src="./Resource/Logo/logo-2.png"
+                alt="Logo-vall-coffee"
+                class="d-block img-thumbnail"
+                width="30%"
+              />
+            </div>
+          </div>
+          <div class="col-lg-4 text-white">
+            <div class="row">
+              <div class="padding-2rem">
+                <span
+                  class="
+                    font-xxlarge font-family-title-large
+                    align-text-bottom
+                    d-block
+                  "
+                >
+                  VALL COFFEE
+                </span>
+                <span class="d-block font-family-slogan"
+                  >Sự lựa chọn của con người tinh tế</span
+                >
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="align-content-center">
+                  <span>
+                    <img
+                      class="white-background border-radius-1-rem p-1"
+                      src="./Resource/icon/facebook-3.svg"
+                      alt="facebook-logo"
+                      width="10%"
+                    />
+                    <img
+                      class="white-background border-radius-1-rem p-1"
+                      src="./Resource/icon/instagram.svg"
+                      alt="instagram-logo"
+                      width="10%"
+                    />
+                    <img
+                      class="white-background border-radius-1-rem p-1"
+                      src="./Resource/icon/facebook-3.svg"
+                      alt="facebook-logo"
+                      width="10%"
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>    
+
+ 
+</div>
+<div class="carts">
+  <table class="cart">
+    <thead>
+      <th> GIỎ HÀNG CỦA TÔI</th>
+      <th class="font-xsmall"><i>Xoá tất cả</i></th>
+    </thead>
+    <tbody>
+      <tr class="font-xsmall">
+        <td><i>Chưa có sản phẩm nào cả !!!</i></td>
+      </tr>
+      <tr>
+        <td> <img src="./Resource/Logo/logo-2.png" alt="Logo" width="50px" height="50px"></td>
+        <td> X</td>
+        <td>0</td>
+        <td>=</td>
+        <td>0đ</td>
+      </tr>
+      <tr>
+        <td class="button-cart" onclick="window.location.href='./order.html'"> Thanh toán </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
