@@ -1,4 +1,4 @@
-Skip to content
+/* Skip to content
 Search or jump to…
 Pull requests
 Issues
@@ -38,8 +38,7 @@ Latest commit fc091cc on Nov 5, 2018
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-
-html {
+*/ html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -205,7 +204,8 @@ textarea {
  */
 
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -215,7 +215,8 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -378,7 +379,7 @@ template {
 [hidden] {
   display: none;
 }
-© 2021 GitHub, Inc.
+/* © 2021 GitHub, Inc.
 Terms
 Privacy
 Security
@@ -390,4 +391,4 @@ API
 Training
 Blog
 About
-Loading complete
+Loading complete */
