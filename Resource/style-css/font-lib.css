@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Asap+Condensed:wght@500&family=Dancing+Script:wght@700&family=Francois+One&family=Oleo+Script&family=Roboto&family=Signika+Negative:wght@500&display=swap");
+:root {
+  --font-size-text: 16px;
+  --font-size-headings: 32px;
+  --font-size-subheading: 28px;
+  --font-size-inputf: 16px;
+  --font-fml-Asap-Cond: "Asap Condensed", sans-serif;
+}
+.font-size-text {
+  font-size: var(--font-size-text);
+}
+.font-size-heading {
+  font-size: var(--font-size-headings);
+}
+.font-size-subheading {
+  font-size: var(--font-size-subheading);
+}
+.font-size-inputf {
+  font-size: var(--font-size-inputf);
+}
+.font-fml-text {
+  font-family: var(--font-fml-Asap-Cond);
+}
+.font-fml-logo {
+  font-family: "Oleo Script", cursive;
+}
+/* font-family: "Anton", sans-serif;
+font-family: "Asap Condensed", sans-serif;
+font-family: "Dancing Script", cursive;
+font-family: "Francois One", sans-serif;
+font-family: "Roboto", sans-serif;
+font-family: "Signika Negative", sans-serif; */
+h1 {
+  font-size: var(--font-size-headings);
+}
+h2 {
+  font-size: calc(var(--font-size-headings) * 0.83);
+}
+h3 {
+  font-size: calc(var(--font-size-headings) * 0.66);
+}
+h4 {
+  font-size: calc(var(--font-size-headings) * 0.5);
+}
+h5 {
+  font-size: calc(var(--font-size-headings) * 0.33);
+}
+h6 {
+  font-size: calc(var(--font-size-headings) * 0.16);
+}
+@media screen and (max-width: 460px) {
+  :root {
+    --font-size-headings: 21px;
+    --font-size-inputf: 11px;
+  }
+}

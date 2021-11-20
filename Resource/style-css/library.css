@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@700&family=Roboto&display=swap");
+/* Variable Definition */
 :root {
   --white: #ffffff;
   --plum: rgba(57, 0, 13, 1);
 }
+/* Old css properties - Ver-1 */
 .font-family-slogan {
   font-family: "Dancing Script", sans-serif;
 }
@@ -201,9 +203,9 @@
   color: var(--white);
   transform: translateY(-2px);
 }
-
 @media (min-width: 768px) {
   .button-37 {
     padding: 10px 30px;
   }
 }
+/* New css library - update */
