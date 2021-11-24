@@ -1,9 +1,9 @@
 .box-shaw{
 	box-shadow: 0 0 12px black;
 }
-.margin_left
+.margin_button
 {
-	margin-left: 300px!important;
+	margin: 0px auto!important;
 
 }
 .white-color
@@ -90,7 +90,7 @@ body{
   }
   
   #radio1:checked ~ .first{
-	margin-left: 0;
+	margin-left: 0px;
   }
   
   #radio2:checked ~ .first{
@@ -158,12 +158,18 @@ section{
 {
 	background-color:#923709;
 	border-radius: 5px;
-	margin: 0px;
+	margin: 0px 0px 0px 70px !important;
 	box-shadow: 0px 0px 2px black;
 	/* position: absolute; */
     /* left: 50%;
     top: 50%; */
     /* transform: translate(-50%, -50%); */
+}
+@media screen and (max-width: 600px) {
+	.button-card
+	{
+		margin: 0px 0px 0px 20px !important;
+	}
 }
 .button-card:hover
 {
@@ -220,7 +226,7 @@ img{
 }
 .ss-1-right
 {
-	margin: 0 0 0 16px;
+	margin: 16px auto;
 }
 #pp-product-img
 {
@@ -338,16 +344,19 @@ img{
 }
 .customize-section.size
 {
-	margin: 0 0px 8px;
+
+	margin-top: 100px;
 	font-size:small;
 	line-height:21px;
 	text-align:left;
+
 }
 .customize-title{
 	display:flex;
 	justify-content: space-between;
-	margin: 0 0 8px;
+	margin: 0 0 5px;
 	padding: 0 20px;
+	text-align: left;
 }
 .left
 {
