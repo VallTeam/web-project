@@ -24,6 +24,15 @@
 .font-fml-logo {
   font-family: "Oleo Script", cursive;
 }
+.font-fml-heading {
+  font-family: "Anton", sans-serif;
+}
+.font-fml-dancing {
+  font-family: "Dancing Script", cursive;
+}
+.font-fml-roboto {
+  font-family: "Roboto", sans-serif;
+}
 /* font-family: "Anton", sans-serif;
 font-family: "Asap Condensed", sans-serif;
 font-family: "Dancing Script", cursive;
