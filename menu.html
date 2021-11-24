@@ -14,87 +14,127 @@
   <link rel="stylesheet" href="Resource/css/bootstrap-utilities.min.css" />
   <link rel="stylesheet" href="./Resource/style-css/library.css" />
   <link rel="stylesheet" href="./Resource/style-css/menu-style.css">
+  <link rel="stylesheet" href="./Resource/style-css/navbar.css" />
+  <link rel="stylesheet" href="./Resource/style-css/header-and-footer.css" />
   <script src="Resource/js/bootstrap.js"></script>
   <script src="Resource/js/bootstrap.min.js"></script>
+  <script
+  src="https://kit.fontawesome.com/12a3b6c9c3.js"
+  crossorigin="anonymous"
+></script>
   <title>Sản phẩm VALL</title>
 </head>
 
 <body>
   <header>
-    <div class="nav-container container-fluid">
-      <nav class="navbar navbar-expand-md navbar-dark">
-        <a href="./home.html" class="navbar-brand">
-          <img src="Resource/Logo/logo-2.png" alt="Logo-store" width="50px" />
-          <span class="text-center" style="font-weight: 800; padding: 5px">VALL COFFEE</span>
-        </a>
-        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"
-          aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="list-menu collapse navbar-collapse" id="toggleMobileMenu">
-          <ul class="navbar-nav fw-bolder">
-            <li class="nav-item list-menu-item">
-              <a class="nav-link" href="./home.html">Trang chủ</a>
-            </li>
-            <li class="nav-item list-menu-item">
-              <a class="nav-link" href="./menu.html">Thực đơn</a>
-            </li>
-            <li class="nav-item list-menu-item">
-              <a class="nav-link" href="./new.html">Tin tức</a>
-            </li>
-            <li class="nav-item list-menu-item">
-              <a class="nav-link" href="./tintuyendung.html">Tin tuyển dụng</a>
-            </li>
-          </ul>
+    <div class="nav">
+      <div class="nav-info font-size-text">
+        <div class="nav-follow-icon">
+          <span class="nav-follow-icon-label">Follow us: </span>
+          <div>
+            <a class="nav-follow-link" href="#">
+              <i class="fab fa-facebook"></i
+            ></a>
+            <a class="nav-follow-link" href="#">
+              <i class="fab fa-instagram"></i
+            ></a>
+          </div>
         </div>
+        <div class="nav-follow-nums">
+          <i class="fas fa-phone-alt"></i>Liên hệ: 19002109
+        </div>
+      </div>
+      <nav class="navbar">
+        <input
+          type="checkbox"
+          name=""
+          id="navbar-menu-btn"
+          class="navbar-menu-btn"
+        />
+        <div class="navbar-mobile">
+          <a href="./home.html" class="navbar-logo">
+            <img src="./Resource/Logo/logo-2.png" class="navbar-logo-img" />
+            <span class="navbar-logo-cap font-fml-logo">vall coffee</span>
+          </a>
+          <div class="navbar-mobile-follow">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+          <label for="navbar-menu-btn" class="navbar-menu-icon"
+            ><span class="navbar-nav-icon"></span
+          ></label>
+        </div>
+        <ul class="navbar-menu">
+          <li class="navbar-menu-items">
+            <a href="home.html" class="navbar-items-link"
+              ><i class="fas fa-home navbar-link-icon"></i
+              ><span>Home</span></a
+            >
+          </li>
+          <li class="navbar-menu-items">
+            <a href="menu.html" class="navbar-items-link"
+              ><i class="fas fa-receipt navbar-link-icon"></i
+              ><span>Order</span></a
+            >
+          </li>
+          <li class="navbar-menu-items">
+            <a href="new.html" class="navbar-items-link">
+              <i class="far fa-newspaper navbar-link-icon"></i
+              ><span>News</span></a
+            >
+          </li>
+          <li class="navbar-menu-items">
+            <a href="tintuyendung.html" class="navbar-items-link"
+              ><i class="fas fa-user-friends navbar-link-icon"></i
+              ><span>Tin tuyển dụng</span></a
+            >
+          </li>
+        </ul>
       </nav>
-      <form id="search-store" class="container">
-        <div class="input-group mb-1">
-          <input type="text" class=" form-control white-background margin-4rem" placeholder="Nhập để tìm kiếm sản phẩm..."
-            aria-label="Nhập để tìm kiếm sản phẩm..." aria-describedby="basic-addon2" />
-          <button type="button" class="btn-outline-light btn text-center margin-rem gseach">
-            Tìm kiếm
-          </button>
-        </div>
-
-      </form>
     </div>
-    <div class="sliders">
-      <div class="slider">
-        <div class="slides">
-          <input type="radio" name="radio-btn" id="radio1">
-          <input type="radio" name="radio-btn" id="radio2">
-          <input type="radio" name="radio-btn" id="radio3">
-          <input type="radio" name="radio-btn" id="radio4">
-          <div class="slide first">
-            <img src="./Resource/Menu/slides/1.png" alt="">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <div class="sliders">
+            <div class="slider">
+              <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <div class="slide first">
+                  <img src="./Resource/Menu/slides/1.png" alt="">
+                </div>
+                <div class="slide">
+                  <img src="./Resource/Menu/slides/5.png" alt="">
+                </div>
+                <div class="slide">
+                  <img src="./Resource/Menu/slides/3.png" alt="">
+                </div>
+                <div class="slide">
+                  <img src="./Resource/Menu/slides/4.png" alt="">
+                </div>
+                <div class="navigation-auto">
+                  <div class="auto-btn1"></div>
+                  <div class="auto-btn2"></div>
+                  <div class="auto-btn3"></div>
+                  <div class="auto-btn4"></div>
+      
+                </div>
+              </div>
+              <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+      
+              </div>
+            </div>
           </div>
-          <div class="slide">
-            <img src="./Resource/Menu/slides/5.png" alt="">
-          </div>
-          <div class="slide">
-            <img src="./Resource/Menu/slides/3.png" alt="">
-          </div>
-          <div class="slide">
-            <img src="./Resource/Menu/slides/4.png" alt="">
-          </div>
-          <div class="navigation-auto">
-            <div class="auto-btn1"></div>
-            <div class="auto-btn2"></div>
-            <div class="auto-btn3"></div>
-            <div class="auto-btn4"></div>
-
-          </div>
-        </div>
-        <div class="navigation-manual">
-          <label for="radio1" class="manual-btn"></label>
-          <label for="radio2" class="manual-btn"></label>
-          <label for="radio3" class="manual-btn"></label>
-          <label for="radio4" class="manual-btn"></label>
-
         </div>
       </div>
     </div>
+
   </header>
 
   <section class="margin_section">
