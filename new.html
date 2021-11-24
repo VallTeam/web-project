@@ -5,292 +5,214 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Resource/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="Resource/style-css/normalize.css" />
-    <link rel="stylesheet" href="Resource/style-css/home-style.css" />
     <link rel="stylesheet" href="Resource/css/bootstrap.css" />
     <link rel="stylesheet" href="Resource/css/bootstrap-grid.css" />
-    <link rel="stylesheet" href="Resource/css/bootstrap-utilities.css" />
-    <link rel="stylesheet" href="Resource/css/bootstrap.rtl.min.css" />
-    <link rel="stylesheet" href="Resource/css/bootstrap-utilities.min.css" />
+    <link rel="stylesheet" href="Resource/style-css/normalize.css" />
     <link rel="stylesheet" href="./Resource/style-css/library.css" />
-    <link rel="stylesheet" href="./Resource/style-css/new.css">
+    <link rel="stylesheet" href="./Resource/style-css/font-lib.css" />
+    <link rel="stylesheet" href="Resource/style-css/home-style.css" />
+    <link rel="stylesheet" href="./Resource/style-css/navbar.css" />
+    <link rel="stylesheet" href="./Resource/style-css/header-and-footer.css" />
     <link rel="stylesheet" href="./Resource/style-css/new.css">
     <script src="Resource/js/bootstrap.js"></script>
     <script src="Resource/js/bootstrap.min.js"></script>
-    <title>VALL COFFEE</title>
+    <script
+      src="https://kit.fontawesome.com/12a3b6c9c3.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Tin tức - VALL COFFEE</title>
   </head>
-  <body>
+  <body class="font-fml-text">
     <header>
-      <div class="nav-container container-fluid">
-        <nav class="navbar navbar-expand-md navbar-dark">
-          <a href="./home.html" class="navbar-brand">
-            <img src="Resource/Logo/logo-2.png" alt="Logo-store" width="50px" />
-            <span class="text-center" style="font-weight: 800; padding: 5px"
-              >VALL COFFEE</span
-            >
-          </a>
-          <button
-            type="button"
-            class="navbar-toggler"
-            data-bs-toggle="collapse"
-            data-bs-target="#toggleMobileMenu"
-            aria-controls="toggleMobileMenu"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="list-menu collapse navbar-collapse" id="toggleMobileMenu">
-            <ul class="navbar-nav fw-bolder">
-              <li class="nav-item list-menu-item padding-side-1rem">
-                <a class="nav-link active p-1" href="./home.html">Trang chủ</a>
-              </li>
-              <li class="nav-item list-menu-item">
-                <a class="nav-link" href="./oder.html">Thực đơn</a>
-              </li>
-              <li class="nav-item list-menu-item">
-                <a class="nav-link" href="./new.html">Tin tức</a>
-              </li>
-              <li class="nav-item list-menu-item">
-                <a class="nav-link" href="./tintuyendung.html">Tin tuyển dụng</a>            
-              </li>
-            </ul>
+      <div class="nav">
+        <div class="nav-info font-size-text">
+          <div class="nav-follow-icon">
+            <span class="nav-follow-icon-label">Follow us: </span>
+            <div>
+              <a class="nav-follow-link" href="#">
+                <i class="fab fa-facebook"></i
+              ></a>
+              <a class="nav-follow-link" href="#">
+                <i class="fab fa-instagram"></i
+              ></a>
+            </div>
           </div>
+          <div class="nav-follow-nums">
+            <i class="fas fa-phone-alt"></i>Liên hệ: 19002109
+          </div>
+        </div>
+        <nav class="navbar">
+          <input
+            type="checkbox"
+            name=""
+            id="navbar-menu-btn"
+            class="navbar-menu-btn"
+          />
+          <div class="navbar-mobile">
+            <a href="./home.html" class="navbar-logo">
+              <img src="./Resource/Logo/logo-2.png" class="navbar-logo-img" />
+              <span class="navbar-logo-cap font-fml-logo">vall coffee</span>
+            </a>
+            <div class="navbar-mobile-follow">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <label for="navbar-menu-btn" class="navbar-menu-icon"
+              ><span class="navbar-nav-icon"></span
+            ></label>
+          </div>
+          <ul class="navbar-menu">
+            <li class="navbar-menu-items">
+              <a href="home.html" class="navbar-items-link"
+                ><i class="fas fa-home navbar-link-icon"></i
+                ><span>Home</span></a
+              >
+            </li>
+            <li class="navbar-menu-items">
+              <a href="order.html" class="navbar-items-link"
+                ><i class="fas fa-receipt navbar-link-icon"></i
+                ><span>Order</span></a
+              >
+            </li>
+            <li class="navbar-menu-items">
+              <a href="new.html" class="navbar-items-link">
+                <i class="far fa-newspaper navbar-link-icon"></i
+                ><span>News</span></a
+              >
+            </li>
+            <li class="navbar-menu-items">
+              <a href="tintuyendung.html" class="navbar-items-link"
+                ><i class="fas fa-user-friends navbar-link-icon"></i
+                ><span>Tin tuyển dụng</span></a
+              >
+            </li>
+          </ul>
         </nav>
-        <div></div>
       </div>
     </header>
-
     <main>
-      <div class="container-fluid">
-        <div class="row list-content">
-          <div class="col-lg-4">
-            <img
-            class="img-fluid rounded-2 shadow-lg"
-            src="Resource/new/Free-Cafe-Gift-Voucher-Template.jpeg"
-            width="100%"
-            />
-          </div>
-            <div class="col-lg-8 title orange-color">
-              <hr />
-            <a href="100Voucher.html">Tặng 100 Voucher chi ân khách hàng </a>
-              <hr>
-            <h1 class="row" id="Vall Coffee" style="color: black; text-align: left;">
-              Chi ân khách hàng tặng 100 Voucher cho 100 khách hàng ...
-            </h1>
-            <div class="find-more">
-              <a href="100Voucher.html">
-                <button type="button" class="btn btn-out orange-border" style="color: orange; float: right;">
-                  Xem thêm 
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row list-content">
-          <div class="col-lg-4">
-            <img
-            class="img-fluid rounded-2 shadow-lg"
-            src="Resource/new/images.jfif"
-            width="100%"
-            />
-          </div>
-            <div class="col-lg-8 title orange-color">
-              <hr />
-            <a href="dongcua.html">Thông báo đóng cửa do dịch covid 19 </a>
-              <hr>
-            <h1 class="row" id="Vall Coffee" style="color: black; text-align: left;">
-              Thông báo đóng cửa do dịch covid 19 ...
-            </h1>
-            <div class="find-more">
-              <a href="dongcua.html">
-                <button type="button" class="btn btn-out orange-border" style="color: orange; float: right;">
-                  Xem thêm 
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row list-content">
-          <div class="col-lg-4">
-            <img
-            class="img-fluid rounded-2 shadow-lg"
-            src="Resource/new/loi-chuc-khai-truong-hay.jpg"
-            width="100%"
-            />
-          </div>
-            <div class="col-lg-8 title orange-color">
-              <hr />
-            <a href="khaitruong.html">Tưng bừng khai trương cơ sở mới ở Trần Duy Hưng giảm giá các sản phẩm của quán </a>
-              <hr>
-              <h1 class="row" id="Vall Coffee" style="color: black; text-align: left;">
-                Khai trương tưng bừng <br> Ngày đầu tiên giảm 25% các loại đồ uống của quán 
-                <br>
-                Ngày thứ 2 giảm 10% giá và tặng 1 loại đồ uống bằng giá tiền ...
-              </h1>
-              <div class="find-more">
-                <a href="">
-                  <button type="button" class="btn btn-out orange-border" style="color: orange; float: right;">
-                    Xem thêm 
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      <div class="container-fluid">
-        <div class="row list-content">
-          <div class="col-lg-4">
-            <img
-            class="img-fluid rounded-2 shadow-lg"
-            src="./Resource/new/APP-NEWS-khoi-dau-1.jpg"
-            width="100%"
-            />  
-          </div>
-            <div class="col-lg-8 title orange-color">
-              <hr />
-            <a href="now.html">KHỞI ĐẦU MỚI - ƯU ĐÃI CỰC HỜI </a>
-              <hr>
-              <h1 class="row" id="Vall Coffee" style="color: black; text-align: left;">
-                Khởi đầu tháng 10 thật bùng nổ VALLCOFFEE khuyến mãi mua 1 tặng 1 từ ngày 6/10 đến 8/10 ...
-              </h1>
-              <div class="find-more">
-                <a href="now.html">
-                  <button type="button" class="btn btn-out orange-border" style="color: orange; float: right;">
-                    Xem thêm 
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row list-content">
-          <div class="col-lg-4">
-            <img
-            class="img-fluid rounded-2 shadow-lg"
-            src="./Resource/new/tải xuống.png"
-            width="100%"
-            />
-          </div>
-            <div class="col-lg-8 title orange-color">
-              <hr />
-            <a href="#">ĐẾN HẸN LẠI LÊN - XUẤT CHIÊU DEAL HOT</a>
-              <hr>
-              <h1 class="row" id="Vall Coffee" style="color: black; text-align: left;">
-                Ngày 22/09/2022, VALLCOFFEE chính thức liên kết với Now <div class=""></div>
-              </h1>
-              <div class="find-more">
-                <a href="#">
-                  <button type="button" class="btn btn-out orange-border" style="color: orange; float: right;">
-                    Xem thêm 
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-      </div>
-    </main>
-    
-    <footer>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-3">
-            <p class="font-large font-upper">Về chúng tôi</p>
-            <div class="padding-1rem">
-              <a href="#" class="ref-link link-info">Về tổng công ty</a>
-            </div>
-            <div class="padding-1rem">
-              <a href="#" class="ref-link link-info">Về sản phẩm của công ty</a>
-            </div>
-            <div class="padding-1rem">
-              <a href="#" class="ref-link link-info">TT Liên hệ & CSKH</a>
-            </div>
-            <div class="padding-1rem">
-              <a href="#" class="ref-link link-info">Cửa hàng</a>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <p class="font-large font-upper">Chính sách chuỗi cửa hàng</p>
-            <div class="padding-1rem">
-              <a href="#" class="ref-link link-info padding-1rem"
-                >Chính sách thành viên</a
-              >
-            </div>
-            <div class="padding-1rem">
-              <a href="#" class="ref-link link-info padding-1rem"
-                >Hình thức thanh toán</a
-              >
-            </div>
-            <div class="padding-1rem">
-              <a href="#" class="ref-link link-info padding-1rem"
-                >Quá trình vận chuyển</a
-              >
-            </div>
-            <div class="padding-1rem">
-              <a href="#" class="ref-link link-info padding-1rem"
-                >Đổi trả và hoàn tiền</a
-              >
-            </div>
-          </div>
-          <div class="col-lg-2">
-            <div class="row">
-              <img
-                src="./Resource/Logo/logo.png"
-                alt="Logo-vall-coffee"
-                class="d-block img-thumbnail"
-                width="30%"
-              />
-            </div>
-          </div>
-          <div class="col-lg-4 text-white">
-            <div class="row">
-              <div class="padding-2rem">
-                <span
-                  class="
-                    font-xxlarge font-family-title-large
-                    align-text-bottom
-                    d-block
-                  "
-                >
-                  VALL COFFEE
-                </span>
-                <span class="d-block font-family-slogan"
-                  >Sự lựa chọn của con người tinh tế</span
-                >
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <div class="align-content-center">
-                  <span>
-                    <img
-                      class="white-background border-radius-1-rem p-1"
-                      src="./Resource/icon/facebook-3.svg"
-                      alt="facebook-logo"
-                      width="10%"
-                    />
-                    <img
-                      class="white-background border-radius-1-rem p-1"
-                      src="./Resource/icon/instagram.svg"
-                      alt="instagram-logo"
-                      width="10%"
-                    />
-                    <img
-                      class="white-background border-radius-1-rem p-1"
-                      src="./Resource/icon/facebook-3.svg"
-                      alt="facebook-logo"
-                      width="10%"
-                    />
-                  </span>
+      <section class="new" id="new">
+        <h1 class="heading"> Tin <span>tức </span> </h1>    
+        <div class="box-container">   
+            <div class="box">
+                <div class="image">
+                    <img src="Resource/new/Free-Cafe-Gift-Voucher-Template.jpeg" alt="">
                 </div>
+                <div class="content">
+                    <a href="#" class="title">Chi ân khách hàng tặng 100 Voucher</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                    <a href="#" class="btn">đọc thêm</a>
+                </div>
+            </div>   
+            <div class="box">
+                <div class="image">
+                    <img src="Resource/new/images.jfif" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Thông báo đóng cửa do dịch covid 19</a>  
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                    <a href="#" class="btn">đọc thêm</a>
+                </div>
+            </div>    
+            <div class="box">
+                <div class="image">
+                    <img src="Resource/new/loi-chuc-khai-truong-hay.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Khai trương cơ sở mới ở Chùa Láng </a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                    <a href="#" class="btn">đọc thêm</a>
+                </div>
+            </div>
+            <div class="box">
+              <div class="image">
+                  <img src="./Resource/new/APP-NEWS-khoi-dau-1.jpg" alt="">
+              </div>
+              <div class="content">
+                  <a href="#" class="title">Khởi đầu tháng 10 VALLCOFFEE khuyến mãi  </a>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                  <a href="#" class="btn">đọc thêm</a>
+              </div>
+          </div>
+          <div class="box">
+            <div class="image">
+                <img src="./Resource/new/tải xuống.png" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">VALLCOFFEE chính thức liên kết với Now b</a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                <a href="#" class="btn">đọc thêm</a>
+            </div>
+        </div>
+        </div>   
+    </section>
+    </main>
+    <footer class="container-fluid">
+      <div class="footer row">
+        <div class="footer-info col-lg-6 col-md-12 col-sm-12">
+          <div class="footer-logo-location row">
+            <div class="footer-logo col-lg-4 col-md-4 col-sm-12">
+              <img
+                class="footer-logo-img"
+                src="./Resource/Logo/logo.png"
+                alt="vall-team-logo"
+              />
+              <span class="footer-logo-caption font-fml-logo"
+                >vall cofffee</span
+              >
+            </div>
+            <div class="footer-location col-lg-8 col-md-8 col-sm-12">
+              <div
+                class="footer-location-title font-size-subheading font-fml-text"
+              >
+                Hệ thống cửa hàng cà phê Vall Coffee
+              </div>
+              <div class="footer-location-list">
+                <i class="fas fa-map-marker"></i>
+                <span>Số 3, Cầu Giấy, Láng Thượng, Đống Đa, Hà Nội</span>
+              </div>
+              <div class="footer-location-list">
+                <i class="fas fa-phone"></i>
+                <span>19002109</span>
+              </div>
+              <div class="footer-location-list">
+                <i class="fas fa-envelope"></i>
+                <span>vallteam21092021@gmail.com</span>
+              </div>
+              <div class="footer-location-l-icon">
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
               </div>
             </div>
           </div>
+        </div>
+        <div class="footer-outer col-lg-3 col-md-6 col-sm-6 col-12">
+          <span class="outer-title">Về chúng tôi</span>
+          <a href="#" class="outer-link-ques">Chính sách ưu đãi</a>
+          <a href="#" class="outer-link-ques">Giấy phép đăng ký và hoạt động</a>
+          <a href="#" class="outer-link-ques">Giới thiệu về Vall Coffee</a>
+          <a href="#" class="outer-link-ques">TT Liên Hệ & CSKH</a>
+        </div>
+        <div class="footer-outer col-lg-3 col-md-6 col-sm-6 col-12">
+          <span class="outer-title">Chính sách</span>
+          <a href="#" class="outer-link-ques">Chính sách thành viên</a>
+          <a href="#" class="outer-link-ques">Hình thức thanh toán</a>
+          <a href="#" class="outer-link-ques">Vận chuyển và giao nhận</a>
+          <a href="#" class="outer-link-ques">Đổi trả và hoàn tiền</a>
+          <a href="#" class="outer-link-ques">Bảo vệ thông tin khách hàng</a>
+        </div>
+        <hr style="margin: 1.5em 0" />
+        <div style="text-align: center">
+          &copy; Một sản phẩm của nhóm 7 - Vall Team. Github link:
+          <a
+            style="text-decoration: none; color: rgba(255, 255, 255, 0.75)"
+            href="https://github.com/VallTeam/web-project"
+            target="_blank"
+            >https://github.com/VallTeam/web-project</a
+          >
         </div>
       </div>
     </footer>

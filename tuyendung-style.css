@@ -1,0 +1,126 @@
+
+.ư1{
+    padding:2rem 8rem;
+    font-family:"Asap Condensed", sans-serif !important;
+    
+}
+.tile{
+    color: white;
+    border: 1px none;
+   padding-top: 120px;
+    width: 100%;
+    height: 70vh;
+    background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/p206x206/258494485_3001665936757405_4757190558117873252_n.png?_nc_cat=101&ccb=1-5&_nc_sid=aee45a&_nc_ohc=HjZS00grjRQAX8pURW1&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=c3684083ac5c34a209564e4b44b9ccea&oe=61C0AE94);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 10px 15px 8px black;
+    margin-bottom: 2em;
+    border-radius: 20px;
+}
+.tile span{
+    font-size: 60px;
+    padding-left: 80px;
+    text-shadow: 8px 8px 8px black;
+}
+.tile p{
+    font-size: 25px;
+    padding-left: 40px;
+}
+img{
+    float: right;
+    width: 40%;
+    box-shadow: 5px 10px 8px black;
+}
+
+.cv{
+    background-color: rgba(57, 0, 13, 1);
+    color: white;
+    border:1px rgba(57, 0, 13, 1);
+    border-radius: 30px;
+    transition: padding 1s, box-shadow 1s;
+    position: fixed;
+    bottom: 8rem;
+    right: 2rem;
+}
+.cv:hover{
+    padding: 10px;
+    box-shadow: 10px 5px 5px black;
+}
+.r3{
+    font-size: 0.8em;
+}
+.right{
+    padding: 20px;
+}
+.r2{
+    font-size: 1.5em;
+}
+.table{
+    margin-bottom: 1em;
+}
+.g1{
+    font-size: 1.5em;
+    text-align: center;
+}
+.y2{
+    border:none;
+    font-size: 0.8em;
+    background-color:rgba(57, 0, 13, 1);
+    color: white;
+}
+.y2 a{
+    text-decoration: none;
+    color: white;
+}
+.r4{
+    text-align: center;
+    font-size: 1.5em;
+}
+.t3 th{
+    font-size: 1em;
+}
+.t3 td{
+    font-size: 0.8em;
+}
+.t3{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+hr{
+    margin: 10px;
+}
+.a4{
+    width: 100%;
+    text-align: left;
+    font-size: 0.8em;
+    
+    margin-bottom: 20px;
+}
+.a5{
+  margin: auto;
+
+}
+.a0{
+    padding:2rem 8rem;
+    font-family:"Asap Condensed", sans-serif !important;
+    
+}
+.a1{
+    border: 1px none;
+    width: 100%;
+    height: 80vh;
+    padding-top: 150px;
+    padding-left: 80px;
+    font-size: 60px;
+    text-shadow:8px 8px 8px black;
+    color: white;
+    background-image: url(http://image.vtc.vn/files/phamquy/2019/10/16/1-0850188.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 20px;
+    box-shadow: 10px 15px 8px rgba(57, 0, 13, 1);
+    margin-bottom: 20px;
+}
+.a6{
+    margin-left: 550px;
+}

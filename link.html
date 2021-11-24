@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="Resource/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="Resource/style-css/normalize.css" />
     <link rel="stylesheet" href="Resource/style-css/home-style.css" />
     <link rel="stylesheet" href="Resource/css/bootstrap.css" />
     <link rel="stylesheet" href="Resource/css/bootstrap-grid.css" />
@@ -13,10 +13,10 @@
     <link rel="stylesheet" href="Resource/css/bootstrap.rtl.min.css" />
     <link rel="stylesheet" href="Resource/css/bootstrap-utilities.min.css" />
     <link rel="stylesheet" href="./Resource/style-css/library.css" />
-    <link rel="stylesheet" href="./Resource/style-css/order-style.css">
+    <link rel="stylesheet" href="Resource/style-css/tuyendung-style.css">
     <script src="Resource/js/bootstrap.js"></script>
     <script src="Resource/js/bootstrap.min.js"></script>
-    <title>Sản phẩm VALL</title>
+    <title>Trang chủ - VALL COFFEE</title>
   </head>
   <body>
     <header>
@@ -25,7 +25,8 @@
           <a href="./home.html" class="navbar-brand">
             <img src="Resource/Logo/logo-2.png" alt="Logo-store" width="50px" />
             <span class="text-center" style="font-weight: 800; padding: 5px"
-              >VALL COFFEE</span>
+              >VALL COFFEE</span
+            >
           </a>
           <button
             type="button"
@@ -40,61 +41,75 @@
           </button>
           <div class="list-menu collapse navbar-collapse" id="toggleMobileMenu">
             <ul class="navbar-nav fw-bolder">
-              <li class="nav-item list-menu-item">
-                <a class="nav-link" href="./home.html">Trang chủ</a>
+              <li class="nav-item list-menu-item padding-side-1rem">
+                <a class="nav-link active p-1" href="./home.html">Trang chủ</a>
               </li>
-              <li class="nav-item list-menu-item">
-                <a class="nav-link  active" href="./menu.html">Thực đơn</a>
+              <li class="nav-item list-menu-item padding-side-1rem">
+                <a class="nav-link p-1" href="./oder.html">Thực đơn</a>
               </li>
-              <li class="nav-item list-menu-item">
-                <a class="nav-link" href="./new.html">Tin tức</a>
+              <li class="nav-item list-menu-item padding-side-1rem">
+                <a class="nav-link p-1" href="./new.html">Tin tức</a>
               </li>
-              <li class="nav-item list-menu-item">
-                <a class="nav-link" href="./tintuyendung.html">Tin tuyển dụng</a>
+              <li class="nav-item list-menu-item padding-side-1rem">
+                <a class="nav-link p-1" href="./tintuyendung.html">Tin tuyển dụng</a>
               </li>
             </ul>
           </div>
         </nav>
+        <div></div>
       </div>
+      <main>
+        
+      </main>
     </header>
-    <section>
-      <div  class="Customer">
-        <form >
-          <h3>Thông Tin Khách Hàng</h3>
-          <table>
-            <tbody>
+    <main>
+      <div class="a0">
+       <div class="a1">
+           <h1>Ứng Tuyển</h1>
+       </div>
+       <div class="a2">
+           <h1 style="text-align: center;">Đơn Ứng Tuyển Online</h1>
+           <h2>1. Thông tin cá nhân</h2>
+       </div>
+       <div>
+        <form class="a4" action="">
+          <table class="a5">
+            <tr>
+            <td><label for="name">Họ Và Tên :</label></td>
+            <td><input type="text" id="name"></tr>
+            </tr>
+            <tr>
+            <td><label for="day">Ngày/Tháng/Năm Sinh :</label></td>
+            <td><input type="date" id="day"></td>
+            </tr>
+            
+            <tr>
+            <td><label for="live">Nơi Ở :</label></td>
+            <td><input type="live" id="name"></td>
+            </tr>
+            <tr>
+            <td><label for="study">Trình Độ Học Vấn :</label></td>
+            <td><input type="text" id="study"></td>
+          </tr>
+          <tr>
+            <td><label for="sdt">Number Phone</label>
+            <td><input type="number" id="sdt">
+              </td>
               <tr>
-                <td><label for="fname"><i class="fa fa-user"></i> Họ Tên :</label></td>
-                <td> <input type="text" id="fname" name="firstname" placeholder="Nguyễn Văn A"></td>
+            <td><label for="mail">Email</label></td>
+            <td><input type="email" id="mail">
+              </td>
               </tr>
               <tr>
-                <td> <label for="number"><i class="fa fa-mobile-phone"></i> Số Điện Thoại :</label></td>
-                <td> <input type="text" id="number" name="number" placeholder="012 3456 789"></td>
               </tr>
-              <tr>
-                <td>Giao đến: </td>
-              </tr>
-              <tr>
-                <td> <label for="adr"><i class="fa fa-address-card-o"></i> Địa Chỉ:</label></td>
-                <td> <input type="text" id="adr" name="address" placeholder="12-Nguyen Chi Thanh -DD"></td>
-              </tr>
-            </tbody>
-          </table>
-        </form>
-      </div>
-      <div class="checkout">
-        <form>
-          <h3>Thông tin đơn hàng</h3>
-          <table>
-            <tbody>
-              <tr>
-                <td class="button-checkout" onclick="window.location.href='./order.html'"> Thanh toán </td>
-              </tr>
-            </tbody>
-          </table>
-        </form>
-      </div>
-    </section>
+            </table>
+            
+            </form>
+       </div>
+       <input class="a6" type="submit" value="Nộp Đơn">
+       </div>
+    </main>
+    
     <footer>
       <div class="container-fluid">
         <div class="row">
@@ -139,7 +154,7 @@
           <div class="col-lg-2">
             <div class="row">
               <img
-                src="./Resource/Logo/logo-2.png"
+                src="./Resource/Logo/logo.png"
                 alt="Logo-vall-coffee"
                 class="d-block img-thumbnail"
                 width="30%"
@@ -194,30 +209,4 @@
       </div>
     </footer>
   </body>
-</html>    
-
- 
-</div>
-<div class="carts">
-  <table class="cart">
-    <thead>
-      <th> GIỎ HÀNG CỦA TÔI</th>
-      <th class="font-xsmall"><i>Xoá tất cả</i></th>
-    </thead>
-    <tbody>
-      <tr class="font-xsmall">
-        <td><i>Chưa có sản phẩm nào cả !!!</i></td>
-      </tr>
-      <tr>
-        <td> <img src="./Resource/Logo/logo-2.png" alt="Logo" width="50px" height="50px"></td>
-        <td> X</td>
-        <td>0</td>
-        <td>=</td>
-        <td>0đ</td>
-      </tr>
-      <tr>
-        <td class="button-cart" onclick="window.location.href='./order.html'"> Thanh toán </td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+</html>
