@@ -209,6 +209,7 @@
   .header-banner .header-banner-logo .banner-search {
     width: 100%;
     padding: 1rem 0;
+    display: none;
   }
   .header-banner .header-banner-logo .banner-search .banner-search-label {
     display: none;
